@@ -98,6 +98,9 @@
     "noVideoID": {
         "message": "No YouTube video found.\nIf this is incorrect, refresh the tab."
     },
+	"wrongContentType": {
+		"message": "No podcast found"
+    },
     "refreshSegments": {
         "message": "Refresh segments"
     },
