@@ -101,6 +101,9 @@
     "noVideoID": {
         "message": "Відео YouTube, не знайдено.\nЯкщо це не так, поновіть вкладку."
     },
+    "wrongContentType": {
+        "message": "No podcast found"
+    },
     "refreshSegments": {
         "message": "Оновити сегменти"
     },
