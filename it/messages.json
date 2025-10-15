@@ -29,6 +29,9 @@
         "message": "Visualizza segmenti come capitoli",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
     },
+    "segmentListDefaultTab": {
+        "message": "Scheda predefinita nella comparsa elenco segmenti"
+    },
     "showSegmentNameInChapterBar": {
         "message": "Mostra il segmento corrente accanto alla durata del video"
     },
@@ -186,6 +189,13 @@
     },
     "hideThis": {
         "message": "Nascondi"
+    },
+    "collapseChapters": {
+        "message": "Comprimi capitoli interni"
+    },
+    "expandChapters": {
+        "message": "Mostra {0} capitoli interni",
+        "description": "{0} is replaced by a number. Always more than 1. Example: Show 3 inner chapters"
     },
     "Options": {
         "message": "Opzioni"
@@ -1048,6 +1058,9 @@
     },
     "darkModeOptionsPage": {
         "message": "Pagina Delle Opzioni In Modalità Scura"
+    },
+    "prideTheme": {
+        "message": "Tema Pride"
     },
     "helpPageThanksForInstalling": {
         "message": "Grazie per aver installato SponsorBlock."
@@ -1977,7 +1990,10 @@
         "message": "Aggiungi canale al profilo di salto"
     },
     "editChannelsSkipProfile": {
-        "message": "Modifica il profilo di salto per questo canale"
+        "message": "Cambia il profilo salto di questo canale"
+    },
+    "editActiveSkipProfile": {
+        "message": "Cambia profilo salto attivo"
     },
     "closeSkipProfileMenu": {
         "message": "Chiudi il menu' del profilo di salto"

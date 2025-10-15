@@ -29,6 +29,9 @@
         "message": "Рендеруј сегменте као поглавља",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
     },
+    "segmentListDefaultTab": {
+        "message": "Подразумевана картица у искачућем прозору листе сегмената"
+    },
     "showSegmentNameInChapterBar": {
         "message": "Прикажи тренутни сегмент поред времена видео снимка"
     },
@@ -186,6 +189,13 @@
     },
     "hideThis": {
         "message": "Сакриј ово"
+    },
+    "collapseChapters": {
+        "message": "Сакриј унутрашња поглавља"
+    },
+    "expandChapters": {
+        "message": "Прикажи {0} унутрашња поглавља",
+        "description": "{0} is replaced by a number. Always more than 1. Example: Show 3 inner chapters"
     },
     "Options": {
         "message": "Опције"
@@ -1048,6 +1058,9 @@
     },
     "darkModeOptionsPage": {
         "message": "Тамни режим на страници са опцијама"
+    },
+    "prideTheme": {
+        "message": "Прајд тема"
     },
     "helpPageThanksForInstalling": {
         "message": "Хвала што сте инсталирали SponsorBlock."
@@ -1977,7 +1990,10 @@
         "message": "Додај канал на профил прескакања"
     },
     "editChannelsSkipProfile": {
-        "message": "Измени профил прескакања овог канала"
+        "message": "Промени профил прескакања овог канала"
+    },
+    "editActiveSkipProfile": {
+        "message": "Промени активни профил прескакања"
     },
     "closeSkipProfileMenu": {
         "message": "Затвори мени профила прескакања"

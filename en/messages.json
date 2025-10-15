@@ -29,6 +29,9 @@
         "message": "Render segments as chapters",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
     },
+    "segmentListDefaultTab": {
+        "message": "Default tab in segment list popup"
+    },
     "showSegmentNameInChapterBar": {
         "message": "Show current segment beside video time"
     },
@@ -1058,6 +1061,9 @@
     },
     "darkModeOptionsPage": {
         "message": "Dark mode on options page"
+    },
+    "prideTheme": {
+        "message": "Pride theme"
     },
     "helpPageThanksForInstalling": {
         "message": "Thanks for installing SponsorBlock."

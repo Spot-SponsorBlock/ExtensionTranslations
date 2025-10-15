@@ -29,6 +29,9 @@
         "message": "Отображать сегменты как эпизоды",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
     },
+    "segmentListDefaultTab": {
+        "message": "Вкладка по умолчанию во всплывающем списке сегментов"
+    },
     "showSegmentNameInChapterBar": {
         "message": "Показывать название текущего сегмента рядом со временем"
     },
@@ -186,6 +189,13 @@
     },
     "hideThis": {
         "message": "Скрыть это"
+    },
+    "collapseChapters": {
+        "message": "Свернуть вложенные эпизоды"
+    },
+    "expandChapters": {
+        "message": "Показать {0} вложенных эпизодов",
+        "description": "{0} is replaced by a number. Always more than 1. Example: Show 3 inner chapters"
     },
     "Options": {
         "message": "Настройки"
@@ -1977,7 +1987,10 @@
         "message": "Добавить канал в профиль"
     },
     "editChannelsSkipProfile": {
-        "message": "Редактировать профиль этого канала"
+        "message": "Изменить профиль для этого канала"
+    },
+    "editActiveSkipProfile": {
+        "message": "Изменить активный профиль"
     },
     "closeSkipProfileMenu": {
         "message": "Закрыть меню профиля"

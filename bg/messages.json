@@ -29,6 +29,9 @@
         "message": "Изобразяване на сегментите като глави",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
     },
+    "segmentListDefaultTab": {
+        "message": "Раздел по подразбиране в изскачащия прозорец със списък на сегментите"
+    },
     "showSegmentNameInChapterBar": {
         "message": "Показване на текущия сегмент до времето на клипа"
     },
@@ -186,6 +189,13 @@
     },
     "hideThis": {
         "message": "Скриване на това"
+    },
+    "collapseChapters": {
+        "message": "Сгъване на вътрешните глави"
+    },
+    "expandChapters": {
+        "message": "Показване на {0} вътрешни глави",
+        "description": "{0} is replaced by a number. Always more than 1. Example: Show 3 inner chapters"
     },
     "Options": {
         "message": "Опции"
@@ -1048,6 +1058,9 @@
     },
     "darkModeOptionsPage": {
         "message": "Тъмен режим на страницата с опции"
+    },
+    "prideTheme": {
+        "message": "Гейска тема"
     },
     "helpPageThanksForInstalling": {
         "message": "Благодарим ви, че инсталирахте SponsorBlock."
@@ -1977,7 +1990,10 @@
         "message": "Добавяне на канала към профил за прескачане"
     },
     "editChannelsSkipProfile": {
-        "message": "Редактиране на профила за прескачане на този канал"
+        "message": "Промяна на профила за прескачане на този канал"
+    },
+    "editActiveSkipProfile": {
+        "message": "Промяна на активния профил за прескачане"
     },
     "closeSkipProfileMenu": {
         "message": "Затваряне на менюто на профила за прескачане"
