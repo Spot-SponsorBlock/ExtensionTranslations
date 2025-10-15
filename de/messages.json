@@ -101,6 +101,9 @@
     "noVideoID": {
         "message": "Kein YouTube-Video gefunden.\nWenn dies falsch ist, aktualisiere den Tab."
     },
+    "wrongContentType": {
+        "message": "No podcast found"
+    },
     "refreshSegments": {
         "message": "Segmente aktualisieren"
     },
