@@ -101,6 +101,9 @@
     "noVideoID": {
         "message": "YouTube-videota ei löytynyt.\nJos tämä ei pidä paikkaansa, päivitä välilehti."
     },
+    "wrongContentType": {
+        "message": "No podcast found"
+    },
     "refreshSegments": {
         "message": "Päivitä osiot"
     },
