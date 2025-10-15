@@ -101,6 +101,9 @@
     "noVideoID": {
         "message": "Nem találtunk YouTube videót.\nHa ez helytelen, frissítsd a lapot."
     },
+    "wrongContentType": {
+        "message": "No podcast found"
+    },
     "refreshSegments": {
         "message": "Szegmensek frissítése"
     },
