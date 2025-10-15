@@ -29,6 +29,9 @@
         "message": "Coi phân đoạn như chương",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
     },
+    "segmentListDefaultTab": {
+        "message": "Default tab in segment list popup"
+    },
     "showSegmentNameInChapterBar": {
         "message": "Hiện phân đoạn hiện tại bên cạnh thời gian video"
     },
@@ -97,6 +100,9 @@
     },
     "noVideoID": {
         "message": "Không tìm thấy video nào.\nNếu sai, hãy thử tải lại thẻ này."
+    },
+    "wrongContentType": {
+        "message": "No podcast found"
     },
     "refreshSegments": {
         "message": "Làm mới segments"
@@ -186,6 +192,13 @@
     },
     "hideThis": {
         "message": "Đóng lại"
+    },
+    "collapseChapters": {
+        "message": "Collapse inner chapters"
+    },
+    "expandChapters": {
+        "message": "Show {0} inner chapters",
+        "description": "{0} is replaced by a number. Always more than 1. Example: Show 3 inner chapters"
     },
     "Options": {
         "message": "Tùy chọn"
@@ -817,6 +830,10 @@
     "category_livestream_messages_short": {
         "message": "Đọc tin nhắn"
     },
+    "fallbackToDefault": {
+        "message": "Fallback to default",
+        "description": "Used in the channel specific settings to fallback to the default option."
+    },
     "autoSkip": {
         "message": "Tự động bỏ qua"
     },
@@ -1044,6 +1061,9 @@
     },
     "darkModeOptionsPage": {
         "message": "Chế độ tối trên trang tùy chọn"
+    },
+    "prideTheme": {
+        "message": "Pride theme"
     },
     "helpPageThanksForInstalling": {
         "message": "Cảm ơn bạn đã cài đặt SponsorBlock."
@@ -1686,6 +1706,10 @@
         "message": "Nhập bất kỳ kênh nào bạn muốn áp dụng cấu hình này vào hộp bên dưới, cách nhau từng dòng. Cả ID kênh và tên hiển thị đều được hỗ trợ. @Tên người dùng không được hỗ trợ. Bạn có thể lấy ID kênh bằng cách nhấn vào nút chia sẻ trên trang giới thiệu kênh. Để tới trang giới thiệu, hãy nhấn vào mô tả kênh xuất hiện bên dưới tên kênh của họ.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
+    "ChannelListInstructionsSB": {
+        "message": "Add channels that should use this alternative skip profile by clicking the button in the popup on a video made by that channel. The list of channels will appear below.",
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
+    },
     "NoConfigurationsSetup": {
         "message": "Chưa có cấu hình nào được thiết lập. Nhấp vào nút ở trên cùng để thêm cấu hình mới.",
         "description": "Appears when there are no channel configurations setup yet on the channel-specific settings list page"
@@ -1920,5 +1944,61 @@
     "hookNewFeature": {
         "message": "Lưu ý: Phân đoạn Gây chú ý đã được chuyển từ mục Xem trước/Tóm tắt sang mục mới Gây chú ý/Lời chào",
         "description": "The category definition has changed, this notice let's people know when they are submitting."
+    },
+    "segmentHideFailed": {
+        "message": "Failed to permanently hide/unhide the requested segment, as the segment's UUID could not be resolved:",
+        "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
+    },
+    "skipProfile_forAnHour": {
+        "message": "For an hour",
+        "description": "Option in skip profiles to set this skip profile as the active one for an hour"
+    },
+    "skipProfile_forThisTab": {
+        "message": "For this tab",
+        "description": "Option in skip profiles to set this skip profile as the active one for this tab"
+    },
+    "skipProfile_forJustThisVideo": {
+        "message": "For just this video",
+        "description": "Option in skip profiles to set this skip profile as the active one for just this video"
+    },
+    "skipProfile_forThisChannel": {
+        "message": "For this channel",
+        "description": "Option in skip profiles to set this skip profile as the active one for this channel"
+    },
+    "clickToNotApplyThisProfile": {
+        "message": "Click to not apply this skip profile"
+    },
+    "skipProfileBeingOverriddenByHigherPriority": {
+        "message": "This option is being overridden by a higher priority option",
+        "description": "Appears when a skip profile is not being applied because a higher priority reason is (for one hour replacing for this channel)"
+    },
+    "clickToApplyThisProfile": {
+        "message": "Click to apply this skip profile"
+    },
+    "selectASkipProfileFirst": {
+        "message": "Select a skip profile first",
+        "description": "In skip profile menu in popup when you haven't selected a skip profile to edit yet"
+    },
+    "SelectASkipProfile": {
+        "message": "Select a skip profile"
+    },
+    "SkipProfileMenu": {
+        "message": "Skip profile menu"
+    },
+    "WhitelistedChannels": {
+        "message": "Whitelisted channels",
+        "description": "Name used when converting old whitelisted channels to skip profiles"
+    },
+    "addChannelToSkipProfile": {
+        "message": "Add channel to skip profile"
+    },
+    "editChannelsSkipProfile": {
+        "message": "Change this channel's skip profile"
+    },
+    "editActiveSkipProfile": {
+        "message": "Change active skip profile"
+    },
+    "closeSkipProfileMenu": {
+        "message": "Close skip profile menu"
     }
 }
