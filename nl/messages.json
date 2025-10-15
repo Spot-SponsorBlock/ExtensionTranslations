@@ -7,6 +7,12 @@
         "message": "Overslaan van sponsors, vragen om te abonneren en meer in YouTube-video's. Rapporteer sponsors in video's die u bekijkt om anderen tijd te besparen.",
         "description": "Description of the extension."
     },
+    "400": {
+        "message": "Server said this request was invalid."
+    },
+    "409": {
+        "message": "This has already been submitted before."
+    },
     "Segment": {
         "message": "segment"
     },
@@ -22,6 +28,9 @@
     "renderAsChapters": {
         "message": "Segmenten weergeven als hoofdstukken",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
+    },
+    "segmentListDefaultTab": {
+        "message": "Default tab in segment list popup"
     },
     "showSegmentNameInChapterBar": {
         "message": "Huidig segment weergeven naast videotijd"
@@ -92,6 +101,9 @@
     "noVideoID": {
         "message": "Geen YouTube-video gevonden.\nVernieuw het tabblad als dit onjuist is."
     },
+    "wrongContentType": {
+        "message": "No podcast found"
+    },
     "refreshSegments": {
         "message": "Segmenten vernieuwen"
     },
@@ -103,6 +115,10 @@
     },
     "serverDown": {
         "message": "Het lijkt erop dat de server offline is. Neem onmiddellijk contact op met de ontwikkelaar."
+    },
+    "connectionError": {
+        "message": "A connection error has occurred.",
+        "description": "Appears in the popup above the refresh button if an error occurred when attempting to send a request. The error code or message will be appended below this string."
     },
     "segmentsStillLoading": {
         "message": "Segmenten worden nog steeds geladen..."
@@ -121,6 +137,9 @@
     },
     "OpenSubmissionMenu": {
         "message": "Inzending-menu openen"
+    },
+    "OpenCasualVoteMenu": {
+        "message": "Open casual mode menu"
     },
     "sortSegments": {
         "message": "Segmenten sorteren"
@@ -165,8 +184,21 @@
     "copySegmentID": {
         "message": "Segment-ID kopiëren"
     },
+    "loopChapter": {
+        "message": "Loop chapter"
+    },
+    "unloopChapter": {
+        "message": "Unloop chapter"
+    },
     "hideThis": {
         "message": "Dit verbergen"
+    },
+    "collapseChapters": {
+        "message": "Collapse inner chapters"
+    },
+    "expandChapters": {
+        "message": "Show {0} inner chapters",
+        "description": "{0} is replaced by a number. Always more than 1. Example: Show 3 inner chapters"
     },
     "Options": {
         "message": "Opties"
@@ -293,6 +325,14 @@
         "message": "Overslaanbericht sluiten",
         "description": "Keybind label"
     },
+    "setDownvoteKeybind": {
+        "message": "Downvote segment",
+        "description": "Keybind label"
+    },
+    "setUpvoteKeybind": {
+        "message": "Upvote segment",
+        "description": "Keybind label"
+    },
     "nextChapterKeybind": {
         "message": "Volgend hoofdstuk",
         "description": "Keybind label"
@@ -300,6 +340,14 @@
     "previousChapterKeybind": {
         "message": "Vorig hoofdstuk",
         "description": "Keybind label"
+    },
+    "enableDeArrowKey": {
+        "message": "Toggle enabling DeArrow",
+        "description": "Keybind label in DeArrow"
+    },
+    "openDeArrowMenu": {
+        "message": "Open submission menu",
+        "description": "Keybind label in DeArrow"
     },
     "keybindDescription": {
         "message": "Selecteer een toets door hem in te typen en kies de modificatietoetsen die u wilt gebruiken."
@@ -319,6 +367,10 @@
     },
     "502": {
         "message": "De server lijkt overbelast te zijn. Probeer het over een paar seconden opnieuw."
+    },
+    "errorCode": {
+        "message": "Server returned status code {code}.",
+        "description": "Used as an error message for HTTP errors returned by the server. {code} will be replaced by the status code. https://en.wikipedia.org/wiki/HTTP_status_code"
     },
     "skip": {
         "message": "Overslaan"
@@ -340,6 +392,10 @@
         "message": "Overslaan naar {0}?",
         "description": "Used for skipping to things (Skip to Highlight)"
     },
+    "upcoming": {
+        "message": "Upcoming {0}",
+        "description": "Example: Upcoming Sponsor"
+    },
     "skipped": {
         "message": "{0} overgeslagen",
         "description": "Example: Sponsor Skipped"
@@ -351,6 +407,10 @@
     "skipped_to_category": {
         "message": "Overgeslagen naar {0}",
         "description": "Used for skipping to things (Skipped to Highlight)"
+    },
+    "voted_on": {
+        "message": "Voted on {0}",
+        "description": "Example: Voted on Sponsor"
     },
     "disableAutoSkip": {
         "message": "Automatisch overslaan uitschakelen"
@@ -442,6 +502,9 @@
     "resetInvidiousInstanceAlert": {
         "message": "U staat op het punt om de lijst met Invidious-instanties te herstellen"
     },
+    "invidiousDisabledSafari": {
+        "message": "Invidious support is not available on Safari at the moment due to a bug in Safari. When Apple fixes the bug, it will be added back."
+    },
     "currentInstances": {
         "message": "Huidige instanties:"
     },
@@ -478,6 +541,15 @@
     "customServerAddressDescription": {
         "message": "Het adres dat SponsorBlock gebruikt om oproepen te doen naar de server.\nTenzij u uw eigen serverinstantie heeft, moet dit niet worden gewijzigd."
     },
+    "dataFetchingServerAddress": {
+        "message": "Data fetching server address"
+    },
+    "dataFetchingServerAddressDescription": {
+        "message": "The address used to make calls to the data fetching server.\nUnless you have your own server instance, this should not be changed."
+    },
+    "thumbnailCacheServerAddress": {
+        "message": "Thumbnail cache server address"
+    },
     "save": {
         "message": "Opslaan"
     },
@@ -495,6 +567,9 @@
     },
     "exportOptions": {
         "message": "Alle opties importeren/exporteren"
+    },
+    "exportOtherData": {
+        "message": "Import/Export All Other Data"
     },
     "exportOptionsCopy": {
         "message": "Bewerken/kopiëren"
@@ -540,6 +615,9 @@
     },
     "edit": {
         "message": "Bewerken"
+    },
+    "copyDebugLogs": {
+        "message": "Copy Debug Logs"
     },
     "copyDebugInformation": {
         "message": "Foutopsporingsinformatie kopiëren naar klembord"
@@ -652,6 +730,9 @@
     "category_outro_guideline1": {
         "message": "Inhoud niet toevoegen, zelfs niet als eindkaarten op het scherm staan"
     },
+    "category_preview": {
+        "message": "Preview/Recap"
+    },
     "category_preview_description": {
         "message": "Collectie van clips die laten zien wat er in deze video of andere video's komt in een serie waar alle informatie later in de video wordt herhaald."
     },
@@ -663,6 +744,34 @@
     },
     "category_preview_guideline3": {
         "message": "Niet voor secties die extra inhoud toevoegen"
+    },
+    "category_hook": {
+        "message": "Hook/Greetings",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
+    },
+    "category_hook_description": {
+        "message": "Narrated trailers for the upcoming video, greetings and goodbyes. This should not skip conclusions with information."
+    },
+    "category_hook_guideline1": {
+        "message": "Narrated trailers for the upcoming video"
+    },
+    "category_hook_guideline2": {
+        "message": "Greetings and goodbye sections welcoming viewers"
+    },
+    "category_hook_guideline3": {
+        "message": "Not for sections that add additional content"
+    },
+    "category_filler": {
+        "message": "Tangents/Jokes"
+    },
+    "category_filler_description": {
+        "message": "Tangential scenes or jokes that are not required to understand the main content of the video. This should not include segments providing context or background details. This is a very aggressive category meant for when you aren't in the mood for \"fun\"."
+    },
+    "category_filler_short": {
+        "message": "Tangents"
+    },
+    "category_filler_guideline1": {
+        "message": "Tangential scenes or jokes"
     },
     "category_filler_guideline2": {
         "message": "Afleidingen, bloopers, herhalingen"
@@ -721,6 +830,10 @@
     "category_livestream_messages_short": {
         "message": "Lezen van berichten"
     },
+    "fallbackToDefault": {
+        "message": "Fallback to default",
+        "description": "Used in the channel specific settings to fallback to the default option."
+    },
     "autoSkip": {
         "message": "Automatisch overslaan"
     },
@@ -751,12 +864,19 @@
     "autoSkipOnMusicVideos": {
         "message": "Automatisch alle segmenten overslaan wanneer er een niet-muziek-segment is"
     },
+    "skipNonMusicOnlyOnYoutubeMusic": {
+        "message": "Only auto skip on music.youtube.com"
+    },
     "muteSegments": {
         "message": "Segmenten toestaan die audio dempen in plaats van overslaan"
     },
     "fullVideoSegments": {
         "message": "Een pictogram weergeven wanneer de volledige video een advertentie is",
         "description": "Referring to the category pill that is now shown on videos that are entirely sponsor or entirely selfpromo"
+    },
+    "fullVideoLabelsOnThumbnails": {
+        "message": "Show labels on video thumbnails as well",
+        "description": "Referring to the category pill that is shown on videos that are entirely sponsor or entirely selfpromo on recommended videos, in searches or on the homepage."
     },
     "previewColor": {
         "message": "Niet ingediend kleur",
@@ -771,6 +891,16 @@
     "skipOption": {
         "message": "Manier van overslaan",
         "description": "Used on the options page to describe the ways to skip the segment (auto skip, manual, etc.)"
+    },
+    "openAdvancedSkipOptions": {
+        "message": "Open advanced skip options"
+    },
+    "advancedSkipNotSaved": {
+        "message": "Syntax error: Your options have not been saved"
+    },
+    "advancedSkipSettingsHelp": {
+        "message": "How this works",
+        "description": "Link in advanced skip options to the help page."
     },
     "enableTestingServer": {
         "message": "Bèta-testserver inschakelen"
@@ -799,6 +929,9 @@
     },
     "youMustSelectACategory": {
         "message": "U moet een categorie selecteren voor alle segmenten die u indient!"
+    },
+    "bracketStart": {
+        "message": "(Start)"
     },
     "bracketEnd": {
         "message": "(einde)"
@@ -902,6 +1035,9 @@
     "questionButton": {
         "message": "Ik heb een vraag"
     },
+    "askAQuestion": {
+        "message": "Ask a question"
+    },
     "warningConfirmButton": {
         "message": "Ik begrijp de reden"
     },
@@ -917,11 +1053,17 @@
     "considerDonating": {
         "message": "Ontwikkeling steunen"
     },
+    "supportSponsorBlock": {
+        "message": "Support my full-time work on SponsorBlock"
+    },
     "hideDonationLink": {
         "message": "Donatiekoppeling verbergen"
     },
     "darkModeOptionsPage": {
         "message": "Donkere modus op opties-pagina"
+    },
+    "prideTheme": {
+        "message": "Pride theme"
     },
     "helpPageThanksForInstalling": {
         "message": "Bedankt voor het installeren van SponsorBlock."
@@ -932,14 +1074,35 @@
     "helpPageFeatureDisclaimer": {
         "message": "Veel functies zijn standaard uitgeschakeld. Als u intro's of outro's wilt overslaan, Invidious wilt gebruiken, enz., schakelt u ze hieronder in. U kunt ook UI-elementen verbergen/weergeven."
     },
+    "helpPageHowSkippingWorks": {
+        "message": "How it works"
+    },
+    "helpPageHowSkippingWorks1": {
+        "message": "All sponsors are submitted by users like you. You can see the list of submitted sponsors in the database by opening the popup in the top right of your browser."
+    },
     "helpPageHowSkippingWorks2": {
         "message": "Als u een segment overslaat, krijgt u een bericht. Als de timing verkeerd lijkt, stem dan door op tegenstemmen te klikken! U kunt ook stemmen in de pop-up."
     },
     "Submitting": {
         "message": "Indienen"
     },
+    "helpPageSubmitting1": {
+        "message": "Submitting can be made by clicking the SponsorBlock logo in the video player."
+    },
+    "helpPageSubmitting2": {
+        "message": "Clicking the play button indicates the start of a segment and clicking the stop icon indicates the end. Click the up arrow button to open the submission menu where you can verify your segments by previewing and editing them to be perfect. Precision is important, make sure to read the guidelines before submitting."
+    },
+    "helpPageCopyOfDatabase": {
+        "message": "Where do the submissions go?"
+    },
+    "helpPageCopyOfDatabase1": {
+        "message": "All submissions are put into the SponsorBlock database, which is publicly released for anyone to use and is available at"
+    },
     "helpPageCopyOfDatabase2": {
         "message": "De broncode is vrij beschikbaar. Dus, zelfs als mij iets overkomt, zijn uw inzendingen niet verloren."
+    },
+    "AdviceForSubmitting": {
+        "message": "Advice for submitting"
     },
     "Credits": {
         "message": "Dank aan"
@@ -985,6 +1148,10 @@
     },
     "categoryPillNewFeature": {
         "message": "Nieuw! Zie wanneer een video volledig gesponsord of zelfpromotie is"
+    },
+    "yearAbbreviation": {
+        "message": "y",
+        "description": "100y"
     },
     "dayAbbreviation": {
         "message": " d",
@@ -1062,6 +1229,9 @@
     "hideUpsells": {
         "message": "Opties verbergen die niet beschikbaar zijn zonder extra betaling"
     },
+    "hideNewFeatureUpdates": {
+        "message": "Hide prompts about new features"
+    },
     "redeem": {
         "message": "Inwisselen"
     },
@@ -1123,12 +1293,59 @@
     "exportSegmentsAsURL": {
         "message": "Delen als URL"
     },
+    "segmentFetchFailureWarning": {
+        "message": "Warning: The server hasn't responded with segments yet. There might actually be segments on this video already submitted but you just haven't received them due to issues with the server."
+    },
     "allowScrollingToEdit": {
         "message": "Scrollen toestaan om tijdstippen te bewerken"
+    },
+    "NoticeTimeAfterSkip": {
+        "message": "{seconds}s",
+        "description": "This is used on the popup to show how much time left. It will look like \"5s\". The word {seconds} will be replaced, so keep it here. Translations should only change the \"s\""
+    },
+    "deArrowFullName": {
+        "message": "DeArrow - Better Titles and Thumbnails on YouTube",
+        "description": "Name of the Clickbait extension. The name refers to removing arrows from thumbnails"
+    },
+    "deArrowDescription": {
+        "message": "Crowdsourcing titles and thumbnails to be descriptive and not sensational",
+        "description": "Description of the Clickbait extension."
+    },
+    "chooseDescriptive": {
+        "message": "Choose the most descriptive"
+    },
+    "Original": {
+        "message": "Original"
+    },
+    "OriginalTitle": {
+        "message": "Original Title"
+    },
+    "CurrentTime": {
+        "message": "Current Time"
+    },
+    "resetCustomTitle": {
+        "message": "Reset Title Back To Original Text"
+    },
+    "resetIcon": {
+        "message": "Reset Icon"
+    },
+    "TypeYourOwnTitleHere": {
+        "message": "Type your own title here"
+    },
+    "VideoNotReady": {
+        "message": "Video not ready"
+    },
+    "FailedToRender": {
+        "message": "Failed to render",
+        "description": "Thumbnail preview failed to render"
     },
     "CanvasMissing": {
         "message": "Canvas ontbreekt",
         "description": "Canvas is the name of an HTML element used to draw thumbnails onto"
+    },
+    "ExceptionWhileRendering": {
+        "message": "Exception while rendering",
+        "description": "Displayed if there is a general error when trying to render the thumbnail"
     },
     "FailedToLoad": {
         "message": "Laden mislukt",
@@ -1140,6 +1357,112 @@
     "Disabled": {
         "message": "Uitgeschakeld"
     },
+    "CapitalizeWords": {
+        "message": "Capitalize Words"
+    },
+    "TitleCase": {
+        "message": "Title Case"
+    },
+    "SentenceCase": {
+        "message": "Sentence Case"
+    },
+    "LowerCase": {
+        "message": "Lower Case"
+    },
+    "FirstLetterUppercase": {
+        "message": "First Letter Uppercase"
+    },
+    "shouldCleanEmojis": {
+        "message": "Remove Emojis"
+    },
+    "formatCustomTitles": {
+        "message": "Format user-submitted titles"
+    },
+    "formatOriginalTitles": {
+        "message": "Format original titles"
+    },
+    "onlyTitleCaseInEnglish": {
+        "message": "Capitalize Words for Non-English Titles"
+    },
+    "onlyTitleCaseInEnglishDescription": {
+        "message": "Language detection is not perfect and detects some English titles as non-English."
+    },
+    "thumbnailFallbackOption": {
+        "message": "When No Submitted Thumbnail Exists"
+    },
+    "whatThumbnailFallbackOption": {
+        "message": "When selecting a random time, it will use SponsorBlock data to ensure a time in a promotional segment is not selected.",
+        "description": "Describing the option for the crowdsourced thumbnail system if no thumbnail has been submitted. It can use a random time instead."
+    },
+    "RandomTime": {
+        "message": "Show a screenshot from a random time"
+    },
+    "TheOriginalThumbnail": {
+        "message": "Show the original thumbnail"
+    },
+    "showABlankBox": {
+        "message": "Show a blank box"
+    },
+    "AutoGenerated": {
+        "message": "Show a thumbnail auto-generated by YouTube",
+        "description": "A DeArrow fallback method that will use the YouTube auto-generated thumbnails instead of a randomly selected time or the original thumbnail"
+    },
+    "Start": {
+        "message": "Start"
+    },
+    "Middle": {
+        "message": "Middle"
+    },
+    "keepUnsubmitted": {
+        "message": "Store Submitted Votes"
+    },
+    "showLiveCover": {
+        "message": "Show Channel Avatar on Upcoming Videos",
+        "description": "It replaces the thumbnail and happens when a DeArrow user selects random thumbnails when no submission exists."
+    },
+    "ignoreAbThumbnails": {
+        "message": "Never Use A/B Tested Thumbnails"
+    },
+    "ignoreAbThumbnailsDescription": {
+        "message": "Channels can setup tests on their videos where YouTube will show different thumbnails to each person. This option will always use the first thumbnail to maintain consistency."
+    },
+    "abThumbnailsWarning": {
+        "message": "Warning: This video currently has a thumbnail A/B test running. This means that the thumbnail may change often. You probably should not vote for the original thumbnail due to this risk."
+    },
+    "whatKeepUnsubmitted": {
+        "message": "Keep submitted votes after voting to show the titles and thumbnails you chose instead of the top voted one on the server."
+    },
+    "keepUnsubmittedInPrivate": {
+        "message": "Store Submitted Votes From Private Tabs"
+    },
+    "useThumbnailGenerationService": {
+        "message": "Use Thumbnail Generation Service"
+    },
+    "titleMaxLines": {
+        "message": "Maximum Lines for Title"
+    },
+    "titleMaxLinesDescription": {
+        "message": "Video titles will be spread over this many lines in suggestions."
+    },
+    "thumbnailSaturationLevel": {
+        "message": "Thumbnail saturation level"
+    },
+    "whatSaturateThumbnails": {
+        "message": "Make thumbnails less vibrant by reducing their color"
+    },
+    "hideDetailsWhileFetching": {
+        "message": "Hide details while fetching"
+    },
+    "hideDetailsWhileFetchingDescription": {
+        "message": "Hide titles and thumbnails while fetching data from the server. If disabled, you will experience flashing as the titles and thumbnails change over."
+    },
+    "ignoreTranslatedTitles": {
+        "message": "Don't show YouTube's translated titles",
+        "description": "YouTube sometimes will auto-translate titles to your native language. This option only applies when a crowdsourced title is not available."
+    },
+    "ignoreTranslatedTitlesDescription": {
+        "message": "YouTube sometimes will auto-translate titles to your native language. This option only applies when a crowdsourced title is not available."
+    },
     "onAllPages": {
         "message": "Op alle pagina's",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
@@ -1148,6 +1471,47 @@
         "message": "Op alle pagina's behalve videopagina's",
         "description": "Setting for when the server-side thumbnail generator should be used for the thumbnail replacement feature."
     },
+    "Never": {
+        "message": "Never"
+    },
+    "thumbnailGeneratorDescription1": {
+        "message": "The thumbnail generation service significantly speeds up thumbnail generation by sending an anonymous request with the videoID to a remote server. The thumbnail will then either be generated, or pulled from a cache if it has already been generated."
+    },
+    "thumbnailGeneratorDescription2": {
+        "message": "If used on video pages, this could potentially leak unlisted videoIDs to this server. Setting this to \"On All Pages Except Video Pages\" will avoid this problem. Another option is to host your own thumbnail generation service."
+    },
+    "thumbnailGeneratorDescription3": {
+        "message": "If use of the thumbnail generation service is disabled, all requests will use a k-anonymity query system, which makes it harder for the server to predict which videos were fetched, and a slower local thumbnail generation service will be used.",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "thumbnailGeneratorSourceCode": {
+        "message": "Thumbnail Generation Service Source Code"
+    },
+    "moreAboutKAnonymity": {
+        "message": "More about K-Anonymity",
+        "description": "https://en.wikipedia.org/wiki/K-anonymity is a system used to anonymise requests."
+    },
+    "alwaysShowShowOriginalButton": {
+        "message": "Always Display The \"Show Original\" Button"
+    },
+    "whatAlwaysShowShowOriginalButton": {
+        "message": "If you want to always know if a title/thumbnail has changed, enable this."
+    },
+    "showOriginalOnHover": {
+        "message": "Swap between custom details and original details on hover"
+    },
+    "showOriginalOnHoverOfVideo": {
+        "message": "Swap between custom details and original details on hover of anywhere on the video card"
+    },
+    "showOriginalOnHoverOfVideoDescription": {
+        "message": "This will disable auto-play on hover"
+    },
+    "showCustomOnHoverIfCasual": {
+        "message": "Show custom title on hover if a casual mode title is being shown"
+    },
+    "showIconForFormattedTitles": {
+        "message": "Display \"Show Original\" Button for Auto-Formatted Titles"
+    },
     "Enable": {
         "message": "Inschakelen"
     },
@@ -1155,11 +1519,33 @@
         "message": "Titels",
         "description": "Referring to titles of YouTube videos"
     },
+    "Thumbnails": {
+        "message": "Thumbnails",
+        "description": "Referring to thumbnails of YouTube videos"
+    },
+    "CasualVotes": {
+        "message": "Casual votes",
+        "description": "Referring to the number of votes submitted under casual mode in DeArrow"
+    },
+    "Error": {
+        "message": "Error"
+    },
     "ShowOriginal": {
         "message": "Originele details weergeven"
     },
     "ShowModified": {
         "message": "Gewijzigde details weergeven"
+    },
+    "ShowFormatted": {
+        "message": "Show Formatted Details"
+    },
+    "FillerWarning": {
+        "message": "Warning: This is an incredibly aggressive category. You most likely will have to unskip stuff, or disable it sometimes. Be warned that many videos have over 50% or more of the video skipped! However, remember that there are still specific guidelines to follow when submitting.",
+        "description": "Warning that appears when enabling the filler tangent category"
+    },
+    "chatboxDescription": {
+        "message": "Join on Discord or Matrix to stay in this chat permanently",
+        "description": "Appears on the top of the integrated chatbox"
     },
     "showGuidelineHelp": {
         "message": "Richtlijn hulp weergeven",
@@ -1169,8 +1555,102 @@
         "message": "Vermijd overdreven gezichtsuitdrukkingen",
         "description": "Referring to the thumbnail of a video"
     },
+    "tip2": {
+        "message": "Think big picture, don't just answer the original title's question",
+        "description": "This is a tip about submitting a new DeArrow replacement title. If the original title is an attention grabbing title, the DeArrow title shouldn't just be an answer to that. It instead should be based on the contents of the video."
+    },
+    "tip3": {
+        "message": "Avoid describing reactions to the video (\"shocking\")",
+        "description": "Referring to the title of a YouTube video. Shocking being when something is described as shocking"
+    },
+    "tip4": {
+        "message": "Provide enough information to make an informed choice before clicking"
+    },
+    "tip5": {
+        "message": "Capitalize it like a sentence",
+        "description": "Tip about submitting titles to DeArrow"
+    },
+    "checkAllToSubmit": {
+        "message": "Check all the guidelines to submit",
+        "description": "Appears on the submission menu in DeArrow sometimes asking the person to agree to part of the guidelines before submitting. The word 'check' here is used as a verb indicating to click each checkbox."
+    },
+    "sentenceCaseTipTitle": {
+        "message": "My title is capitalized like a sentence",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipTitle": {
+        "message": "My title does not just answer a question posed in the title",
+        "description": "Tip title in DeArrow"
+    },
+    "answeringQuestionTipSubTitle": {
+        "message": "Titles should describe the video, or the story in general. You should make sure to watch the full video to know what it is actually about instead of relying on an intriguing original title.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noSummariesTipTitle": {
+        "message": "My title does not summarize a conclusion or spoil unnecessarily",
+        "description": "Tip title in DeArrow"
+    },
+    "noSummariesTipSubTitle": {
+        "message": "Titles are not meant to replace watching the video entirely, but instead meant for you to know if you should click or not.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "noFactCheckTipTitle": {
+        "message": "My title does not fact check, mock, or critique the video or the creator",
+        "description": "Tip title in DeArrow"
+    },
+    "noFactCheckTipSubTitle": {
+        "message": "Titles are meant to be from the perspective of the creator and the video. Rating or fact-checking the video itself is out of scope of DeArrow. Titles are not meant as a comment section.",
+        "description": "Tip subtitle in DeArrow"
+    },
+    "DetectedWord": {
+        "message": "Detected word: ",
+        "description": "Used in DeArrow automatic warnings that shows you the word that was detected as a problem"
+    },
+    "DeArrowDiscussingWarning": {
+        "message": "Don't use unnecessary verbs at the start of the title",
+        "description": "A DeArrow automatic warning. It will detect works such as 'discussing' and 'talking about'"
+    },
+    "DeArrowStartLowerCaseWarning": {
+        "message": "Start all titles with a capital letter. Titles should be formatted like a sentence",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowEndWithPeriodWarning": {
+        "message": "Titles should not end with a '.'",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowAddingAnswerWarning": {
+        "message": "Don't just add an answer to a question in the original title. Titles should describe the video, or the story in general",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowClickbaitWarning": {
+        "message": "Titles should not fact check, mock, or critique the video or the creator",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowKeepingBadOriginalWarning": {
+        "message": "Titles should not keep sensational elements from the original title",
+        "description": "A DeArrow automatic warning"
+    },
+    "DeArrowEmojiWarning": {
+        "message": "Titles should not contain emojis",
+        "description": "A DeArrow automatic warning"
+    },
+    "resolveWarningFirst": {
+        "message": "You must resolve the warning before submitting"
+    },
+    "dearrowHelpSponsorBlockImported": {
+        "message": "Note: Your SponsorBlock settings have been automatically imported!"
+    },
     "howItWorks": {
         "message": "Hoe het werkt"
+    },
+    "discordPromotion": {
+        "message": "Come contribute, make some suggestions and help out on {discord} or on {matrix}"
+    },
+    "deArrowDonationText": {
+        "message": "If you like what I've done so far, and want to help me with money, here's a link"
+    },
+    "termsAgreement": {
+        "message": "By using this extension, you agree to the {privacy-policy} and {terms}"
     },
     "privacyPolicy": {
         "message": "Privacybeleid"
@@ -1178,12 +1658,91 @@
     "termsOfUse": {
         "message": "Gebruiksvoorwaarden"
     },
+    "openSourceLicenses": {
+        "message": "Open Source Licenses"
+    },
+    "defaultToOriginals": {
+        "message": "Default To Original Video Information"
+    },
+    "whatDefaultToOriginals": {
+        "message": "Show the original title and thumbnail by default, but have a button that appears on hover to see the custom titles and thumbnails."
+    },
+    "replaceTitles": {
+        "message": "Replace Titles"
+    },
+    "replaceThumbnails": {
+        "message": "Replace Thumbnails"
+    },
+    "useCrowdsourcedTitles": {
+        "message": "Use Crowdsourced Titles"
+    },
+    "whatUseCrowdsourcedTitles": {
+        "message": "If disabled, it will format titles but not use community submitted titles",
+        "description": "Description under the \"Use Crowdsourced Titles\" option"
+    },
     "areYouSureDeleteConfig": {
         "message": "Weet u zeker dat u deze configuratie wilt verwijderen?",
         "description": "Appears when deleting a configuration for channel-based settings"
     },
+    "NewConfiguration": {
+        "message": "New configuration"
+    },
+    "CreateNewConfiguration": {
+        "message": "Create new configuration"
+    },
+    "DeleteConfiguration": {
+        "message": "Delete configuration"
+    },
+    "ChannelAllowlist": {
+        "message": "Channel-specific settings"
+    },
     "ConfigurationName": {
         "message": "Configuratienaam"
+    },
+    "DefaultConfiguration": {
+        "message": "Default configuration"
+    },
+    "ChannelListInstructions": {
+        "message": "Enter any channels you want to apply this configuration to in the box below, separated by new lines. Both Channel IDs and display names are supported. @ Usernames are not supported. You can get channel IDs from clicking the share button on the channel's about page. To get to the about page, click on the channel description that appears below their channel name on their channel page.",
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
+    },
+    "ChannelListInstructionsSB": {
+        "message": "Add channels that should use this alternative skip profile by clicking the button in the popup on a video made by that channel. The list of channels will appear below.",
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
+    },
+    "NoConfigurationsSetup": {
+        "message": "No configurations setup yet. Click the button at the top to add a new configuration.",
+        "description": "Appears when there are no channel configurations setup yet on the channel-specific settings list page"
+    },
+    "DeArrowPromotionMessage": {
+        "message": "Stop clickbait by replacing titles and thumbnails with more accurate ones"
+    },
+    "DeArrowPromotionMessage2": {
+        "message": "Tired of clickbait? Check out my new extension for improving titles and thumbnails"
+    },
+    "DeArrowPromotionMessage3": {
+        "message": "Also check out DeArrow",
+        "description": "DeArrow is the name of the extension"
+    },
+    "DeArrowTitleReplacementSuggestion": {
+        "message": "Don't like this title? If you prefer the title below, consider checking out the title replacement feature in DeArrow.",
+        "description": "A title will be displayed below this to demonstrate what the alternative title would be."
+    },
+    "RandomThumbnailExplanation": {
+        "message": "This thumbnail is chosen from a random timestamp because there isn't a submission on this video yet",
+        "description": "A description during on boarding to explain the random thumbnail setting"
+    },
+    "RandomThumbnailAndAutoFormattedExplanation": {
+        "message": "This thumbnail is chosen from a random timestamp and the title is auto-formatted because there isn't a submission on this video yet",
+        "description": "A description during on boarding to explain the random thumbnail and autoformatting setting"
+    },
+    "YouCanChangeThisDefaultBelow": {
+        "message": "You can change this default below",
+        "description": "Appears in onboarding below explanation of random thumbnail and autoformatting"
+    },
+    "dearrowStatsMessage": {
+        "message": "{titles} titles and {thumbnails} thumbnails have been replaced since you installed this extension",
+        "description": "Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
     "dearrowStatsMessageTitlePart": {
         "message": "{titles} titel ",
@@ -1193,8 +1752,36 @@
         "message": "{titles} titels ",
         "description": "Title plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
     },
+    "dearrowStatsMessageThumbnailPart": {
+        "message": "and {thumbnails} thumbnail",
+        "description": "Thumbnail singular part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessageThumbnailsPart": {
+        "message": "and {thumbnails} thumbnails",
+        "description": "Thumbnail plural part of message. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "dearrowStatsMessage2": {
+        "message": "{titleAndThumbnailMessage} have been replaced since you installed this extension",
+        "description": "{titleAndThumbnailMessage} will become '{titles} titles and {thumbnails} thumbnails' from the other messages. It can be moved to a different part of the message if needed. Appears on the DeArrow popup to show how many titles and thumbnails have been replaced since install"
+    },
+    "countReplacements": {
+        "message": "Count Title and Thumbnail Replacements"
+    },
+    "countReplacementsDescription": {
+        "message": "Used to give you statistics in the popup.",
+        "description": "On options page describing the setting for counting how many times titles and thumbnails have been replaced in DeArrow"
+    },
+    "YtNeuterMessage": {
+        "message": "Add a filterlist to block surveys, merch shelves, and other promotional page elements using yt-neuter"
+    },
     "requiresUblock": {
         "message": "uBlock Origin vereist"
+    },
+    "videoIDWrongWhenSubmittingError": {
+        "message": "Something has gone wrong with the videoID detection. Please try refreshing before submitting to ensure it gets submitted for the correct video. If this is happening a lot, please send a report of this along with the other extensions or userscripts you have installed through GitHub, Discord or Matrix."
+    },
+    "dearrowLogoCredit": {
+        "message": "Logo based on Twemoji licensed under CC-BY 4.0"
     },
     "zoomToFillUnsupported": {
         "message": "SponsorBlock is niet compatibel met de extensie \"Zoom to Fill\". Er zijn veel alternatieven die u in plaats daarvan kunt gebruiken die naar behoren zullen werken."
@@ -1231,5 +1818,187 @@
     },
     "ViewLicenseKey": {
         "message": "Licentiesleutel weergeven"
+    },
+    "SharingIsCaring": {
+        "message": "Sharing is caring"
+    },
+    "cleanPopup": {
+        "message": "Hide clutter in segment list popup"
+    },
+    "hideSegmentCreationInPopup": {
+        "message": "Hide segment creation buttons in popup"
+    },
+    "syncDisabledWarning": {
+        "message": "Warning: Extension storage has been disabled in your browser. Settings will not be saved if you try saving them."
+    },
+    "syncDisabledWarningDeArrow": {
+        "message": "DeArrow will not function without storage."
+    },
+    "syncDisabledFirefoxSuggestions": {
+        "message": "You can enable it by going to about:config and setting the value of \"webextensions.storage.sync.enabled\" to true."
+    },
+    "storageFull": {
+        "message": "Extension storage is full. Please delete some unsubmitted segments in the options."
+    },
+    "previewSegmentRequired": {
+        "message": "Please preview your segments before submitting. You can do this by clicking the preview button or using the following shortcut:",
+        "description": "Appears when trying to submit a segment without previewing it first. After the colon, the shortcut will appear"
+    },
+    "actAsVip": {
+        "message": "Act as VIP",
+        "description": "Toggle switch for VIP (SponsorBlock moderators) to be able to make vote actions without using their powers."
+    },
+    "submissionFailedServerSideAds": {
+        "message": "Submissions cannot be accepted from your browser at the moment because YouTube seems to have injected some server-side advertisements that the extension is not able to remove. Please contact if you are receiving this error."
+    },
+    "DeArrowIsDisabled": {
+        "message": "DeArrow is disabled - click to enable",
+        "description": "Appears as a button on the video page when DeArrow is disabled"
+    },
+    "areYouSureOriginalVote": {
+        "message": "Are you sure that this original thumbnail follows the DeArrow guidelines? If you just prefer seeing original thumbnails in general, consider changing the \"When no submitted thumbnail exists\" option in the DeArrow settings.",
+        "description": "Appears when voting for the original thumbnail for the first time in DeArrow"
+    },
+    "yttvLiveContentWarning": {
+        "message": "On YouTube TV, SponsorBlock is not compatible with live and recently-recorded content. If this is a recent recording, please wait a few hours for the processed version of the recording to become available.",
+        "description": "Shown when attempting to start creating a segment on tv.youtube.com and the content is live/recently-recorded."
+    },
+    "yttvNoChannelWhitelist": {
+        "message": "Channel whitelisting is not supported on tv.youtube.com.",
+        "description": "Appears when trying to whitelist a channel but being on YTTV where channel ID extraction is unsupported."
+    },
+    "likeOriginalTitle": {
+        "message": "Like the original title?",
+        "description": "Shows in a voting box for casual mode for voting on if the original title is fun or entertaining"
+    },
+    "Yes": {
+        "message": "Yes"
+    },
+    "No": {
+        "message": "No"
+    },
+    "votes": {
+        "message": "{0} votes",
+        "description": "Appears as `5 votes`. Do not change the {0}"
+    },
+    "vote": {
+        "message": "{0} vote",
+        "description": "Appears as `1 vote`. Do not change the {0}"
+    },
+    "dearrow_category_funny": {
+        "message": "Funny",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_creative": {
+        "message": "Creative",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_clever": {
+        "message": "Clever",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_descriptive": {
+        "message": "Descriptive",
+        "description": "Category for DeArrow casual mode"
+    },
+    "dearrow_category_other": {
+        "message": "Other",
+        "description": "Category for DeArrow casual mode"
+    },
+    "ClassicMode": {
+        "message": "Classic mode",
+        "description": "Classic mode is a mode in DeArrow"
+    },
+    "ClassicModeDescription": {
+        "message": "Titles are replaced with standardized formats based on the guidelines on all videos where a crowdsourced title exists."
+    },
+    "CasualMode": {
+        "message": "Casual mode",
+        "description": "Casual mode is a mode in DeArrow"
+    },
+    "CasualModeDescription": {
+        "message": "Keep original titles when they describe the video well enough and are clever or funny.\nChoose which categories of titles you want to see.\nYou'll be able to vote if a title fits into a category or not."
+    },
+    "minimumVotes": {
+        "message": "Minimum votes",
+        "description": "Appears in DeArrow settings for minimum votes for a casual mode category to be used"
+    },
+    "showOriginalWhenCasual": {
+        "message": "Show original thumbnail on casual mode voted videos",
+        "description": "Option for casual mode in DeArrow to also apply casual settings to thumbnail choices"
+    },
+    "newCasualMode": {
+        "message": "New feature: Casual mode",
+        "description": "Title of announcement in DeArrow about the new casual mode feature"
+    },
+    "onlyShowCasualIconForCustom": {
+        "message": "Only show casual mode icon when a custom title is available"
+    },
+    "dontFormatCasualTitles": {
+        "message": "Don't format casual mode titles",
+        "description": "Option for casual mode in DeArrow"
+    },
+    "OpenSettings": {
+        "message": "Open settings"
+    },
+    "hookNewFeature": {
+        "message": "Notice: Hook has been moved from the Preview/Recap category to the new Hook/Greetings category",
+        "description": "The category definition has changed, this notice let's people know when they are submitting."
+    },
+    "segmentHideFailed": {
+        "message": "Failed to permanently hide/unhide the requested segment, as the segment's UUID could not be resolved:",
+        "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
+    },
+    "skipProfile_forAnHour": {
+        "message": "For an hour",
+        "description": "Option in skip profiles to set this skip profile as the active one for an hour"
+    },
+    "skipProfile_forThisTab": {
+        "message": "For this tab",
+        "description": "Option in skip profiles to set this skip profile as the active one for this tab"
+    },
+    "skipProfile_forJustThisVideo": {
+        "message": "For just this video",
+        "description": "Option in skip profiles to set this skip profile as the active one for just this video"
+    },
+    "skipProfile_forThisChannel": {
+        "message": "For this channel",
+        "description": "Option in skip profiles to set this skip profile as the active one for this channel"
+    },
+    "clickToNotApplyThisProfile": {
+        "message": "Click to not apply this skip profile"
+    },
+    "skipProfileBeingOverriddenByHigherPriority": {
+        "message": "This option is being overridden by a higher priority option",
+        "description": "Appears when a skip profile is not being applied because a higher priority reason is (for one hour replacing for this channel)"
+    },
+    "clickToApplyThisProfile": {
+        "message": "Click to apply this skip profile"
+    },
+    "selectASkipProfileFirst": {
+        "message": "Select a skip profile first",
+        "description": "In skip profile menu in popup when you haven't selected a skip profile to edit yet"
+    },
+    "SelectASkipProfile": {
+        "message": "Select a skip profile"
+    },
+    "SkipProfileMenu": {
+        "message": "Skip profile menu"
+    },
+    "WhitelistedChannels": {
+        "message": "Whitelisted channels",
+        "description": "Name used when converting old whitelisted channels to skip profiles"
+    },
+    "addChannelToSkipProfile": {
+        "message": "Add channel to skip profile"
+    },
+    "editChannelsSkipProfile": {
+        "message": "Change this channel's skip profile"
+    },
+    "editActiveSkipProfile": {
+        "message": "Change active skip profile"
+    },
+    "closeSkipProfileMenu": {
+        "message": "Close skip profile menu"
     }
 }
