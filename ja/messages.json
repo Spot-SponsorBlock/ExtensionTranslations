@@ -29,6 +29,9 @@
         "message": "セグメントをチャプターとして表示する",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
     },
+    "segmentListDefaultTab": {
+        "message": "Default tab in segment list popup"
+    },
     "showSegmentNameInChapterBar": {
         "message": "動画時間の横に現在のセグメントを表示"
     },
@@ -97,6 +100,9 @@
     },
     "noVideoID": {
         "message": "YouTube動画が見つかりませんでした。\nこれが正しくなければ、タブを再読み込みしてください。"
+    },
+    "wrongContentType": {
+        "message": "No podcast found"
     },
     "refreshSegments": {
         "message": "セグメントを更新"
@@ -1056,6 +1062,9 @@
     "darkModeOptionsPage": {
         "message": "オプション画面でダークモードを使用"
     },
+    "prideTheme": {
+        "message": "Pride theme"
+    },
     "helpPageThanksForInstalling": {
         "message": "SponsorBlockをインストールいただきありがとうございます。"
     },
@@ -1365,6 +1374,12 @@
     },
     "shouldCleanEmojis": {
         "message": "絵文字を除去"
+    },
+    "formatCustomTitles": {
+        "message": "Format user-submitted titles"
+    },
+    "formatOriginalTitles": {
+        "message": "Format original titles"
     },
     "onlyTitleCaseInEnglish": {
         "message": "英語ではない題名も大文字化する"
@@ -1691,6 +1706,10 @@
         "message": "この設定を適用するチャンネルを、改行で区切り下のボックスに入力します。チャンネルIDと表示名の両方に対応します。@username 形式には対応しません。 チャンネルの概要を表示し「共有」ボタンを押すと、チャンネルIDを取得できます。概要を表示するには、そのチャンネルのページのチャンネル名の下に表示されているチャンネルの説明を押します。",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
+    "ChannelListInstructionsSB": {
+        "message": "Add channels that should use this alternative skip profile by clicking the button in the popup on a video made by that channel. The list of channels will appear below.",
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
+    },
     "NoConfigurationsSetup": {
         "message": "設定されていません。上のボタンをクリックし設定を新しく追加してください。",
         "description": "Appears when there are no channel configurations setup yet on the channel-specific settings list page"
@@ -1926,6 +1945,10 @@
         "message": "お知らせ: 掴みは予告/あらすじから新たに掴み/挨拶に移動しました",
         "description": "The category definition has changed, this notice let's people know when they are submitting."
     },
+    "segmentHideFailed": {
+        "message": "Failed to permanently hide/unhide the requested segment, as the segment's UUID could not be resolved:",
+        "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
+    },
     "skipProfile_forAnHour": {
         "message": "1時間のみ",
         "description": "Option in skip profiles to set this skip profile as the active one for an hour"
@@ -1942,12 +1965,40 @@
         "message": "このチャンネルのみ",
         "description": "Option in skip profiles to set this skip profile as the active one for this channel"
     },
+    "clickToNotApplyThisProfile": {
+        "message": "Click to not apply this skip profile"
+    },
     "skipProfileBeingOverriddenByHigherPriority": {
         "message": "このオプションは、他の優先度が高いオプションによって上書きされています",
         "description": "Appears when a skip profile is not being applied because a higher priority reason is (for one hour replacing for this channel)"
     },
+    "clickToApplyThisProfile": {
+        "message": "Click to apply this skip profile"
+    },
+    "selectASkipProfileFirst": {
+        "message": "Select a skip profile first",
+        "description": "In skip profile menu in popup when you haven't selected a skip profile to edit yet"
+    },
+    "SelectASkipProfile": {
+        "message": "Select a skip profile"
+    },
+    "SkipProfileMenu": {
+        "message": "Skip profile menu"
+    },
     "WhitelistedChannels": {
         "message": "ホワイトリストに登録されたチャンネル",
         "description": "Name used when converting old whitelisted channels to skip profiles"
+    },
+    "addChannelToSkipProfile": {
+        "message": "Add channel to skip profile"
+    },
+    "editChannelsSkipProfile": {
+        "message": "Change this channel's skip profile"
+    },
+    "editActiveSkipProfile": {
+        "message": "Change active skip profile"
+    },
+    "closeSkipProfileMenu": {
+        "message": "Close skip profile menu"
     }
 }
