@@ -29,6 +29,9 @@
         "message": "Pokazuj segmenty jako rozdziały",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
     },
+    "segmentListDefaultTab": {
+        "message": "Default tab in segment list popup"
+    },
     "showSegmentNameInChapterBar": {
         "message": "Pokaż bieżący segment poza czasem wideo"
     },
@@ -97,6 +100,9 @@
     },
     "noVideoID": {
         "message": "Nie znaleziono filmu YouTube.\nJeżeli to błąd, odśwież stronę."
+    },
+    "wrongContentType": {
+        "message": "No podcast found"
     },
     "refreshSegments": {
         "message": "Odśwież segmenty"
@@ -186,6 +192,13 @@
     },
     "hideThis": {
         "message": "Ukryj to"
+    },
+    "collapseChapters": {
+        "message": "Collapse inner chapters"
+    },
+    "expandChapters": {
+        "message": "Show {0} inner chapters",
+        "description": "{0} is replaced by a number. Always more than 1. Example: Show 3 inner chapters"
     },
     "Options": {
         "message": "Opcje"
@@ -817,6 +830,10 @@
     "category_livestream_messages_short": {
         "message": "Czytanie wiadomości"
     },
+    "fallbackToDefault": {
+        "message": "Fallback to default",
+        "description": "Used in the channel specific settings to fallback to the default option."
+    },
     "autoSkip": {
         "message": "Autopomijanie"
     },
@@ -1044,6 +1061,9 @@
     },
     "darkModeOptionsPage": {
         "message": "Tryb ciemny na stronie opcji"
+    },
+    "prideTheme": {
+        "message": "Pride theme"
     },
     "helpPageThanksForInstalling": {
         "message": "Dziękujemy za zainstalowanie SponsorBlock."
@@ -1664,14 +1684,30 @@
         "message": "Czy na pewno chcesz usunąć tę konfigurację?",
         "description": "Appears when deleting a configuration for channel-based settings"
     },
+    "NewConfiguration": {
+        "message": "New configuration"
+    },
+    "CreateNewConfiguration": {
+        "message": "Create new configuration"
+    },
+    "DeleteConfiguration": {
+        "message": "Delete configuration"
+    },
     "ChannelAllowlist": {
         "message": "Ustawienia specyficzne dla kanału"
     },
     "ConfigurationName": {
         "message": "Nazwa konfiguracji"
     },
+    "DefaultConfiguration": {
+        "message": "Default configuration"
+    },
     "ChannelListInstructions": {
         "message": "Wprowadź kanały, które chcesz zastosować do tej konfiguracji w polu poniżej, oddzielone nowymi wierszami. Obsługiwane są zarówno identyfikatory kanałów, jak i nazwy wyświetlane. Nazwy użytkowników z @ nie są obsługiwane. Identyfikator kanału można uzyskać, klikając przycisk udostępniania na stronie informacji o kanale. Aby uzyskać dostęp do informacji o kanale, kliknij opis kanału, wyświetlany pod nazwą użytkownika na stronie kanału.",
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
+    },
+    "ChannelListInstructionsSB": {
+        "message": "Add channels that should use this alternative skip profile by clicking the button in the popup on a video made by that channel. The list of channels will appear below.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
@@ -1912,5 +1948,57 @@
     "segmentHideFailed": {
         "message": "Nie udało się trwale ukryć/odkryć żądanego segmentu, ponieważ nie można było rozpoznać UUID segmentu:",
         "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
+    },
+    "skipProfile_forAnHour": {
+        "message": "For an hour",
+        "description": "Option in skip profiles to set this skip profile as the active one for an hour"
+    },
+    "skipProfile_forThisTab": {
+        "message": "For this tab",
+        "description": "Option in skip profiles to set this skip profile as the active one for this tab"
+    },
+    "skipProfile_forJustThisVideo": {
+        "message": "For just this video",
+        "description": "Option in skip profiles to set this skip profile as the active one for just this video"
+    },
+    "skipProfile_forThisChannel": {
+        "message": "For this channel",
+        "description": "Option in skip profiles to set this skip profile as the active one for this channel"
+    },
+    "clickToNotApplyThisProfile": {
+        "message": "Click to not apply this skip profile"
+    },
+    "skipProfileBeingOverriddenByHigherPriority": {
+        "message": "This option is being overridden by a higher priority option",
+        "description": "Appears when a skip profile is not being applied because a higher priority reason is (for one hour replacing for this channel)"
+    },
+    "clickToApplyThisProfile": {
+        "message": "Click to apply this skip profile"
+    },
+    "selectASkipProfileFirst": {
+        "message": "Select a skip profile first",
+        "description": "In skip profile menu in popup when you haven't selected a skip profile to edit yet"
+    },
+    "SelectASkipProfile": {
+        "message": "Select a skip profile"
+    },
+    "SkipProfileMenu": {
+        "message": "Skip profile menu"
+    },
+    "WhitelistedChannels": {
+        "message": "Whitelisted channels",
+        "description": "Name used when converting old whitelisted channels to skip profiles"
+    },
+    "addChannelToSkipProfile": {
+        "message": "Add channel to skip profile"
+    },
+    "editChannelsSkipProfile": {
+        "message": "Change this channel's skip profile"
+    },
+    "editActiveSkipProfile": {
+        "message": "Change active skip profile"
+    },
+    "closeSkipProfileMenu": {
+        "message": "Close skip profile menu"
     }
 }
