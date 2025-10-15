@@ -101,6 +101,9 @@
     "noVideoID": {
         "message": "Hittade ingen YouTube-video.\nUppdatera fliken om detta är felaktigt."
     },
+    "wrongContentType": {
+        "message": "No podcast found"
+    },
     "refreshSegments": {
         "message": "Uppdatera segment"
     },
