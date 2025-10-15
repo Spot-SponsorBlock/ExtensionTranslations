@@ -101,6 +101,9 @@
     "noVideoID": {
         "message": "Није пронађен ниједан YouTube видео снимак. Ако ово није тачно, освежите картицу."
     },
+    "wrongContentType": {
+        "message": "No podcast found"
+    },
     "refreshSegments": {
         "message": "Освежи сегменте"
     },
