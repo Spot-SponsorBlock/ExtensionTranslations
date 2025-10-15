@@ -29,6 +29,9 @@
         "message": "عرض الفقرات كفصول",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
     },
+    "segmentListDefaultTab": {
+        "message": "Default tab in segment list popup"
+    },
     "showSegmentNameInChapterBar": {
         "message": "إظهار الفقرة الحالية بجانب وقت الفيديو"
     },
@@ -97,6 +100,9 @@
     },
     "noVideoID": {
         "message": "لم يتم العثور على فيديو يوتيوب.\nإذا كان هذا غير صحيح، حدّث الصفحة."
+    },
+    "wrongContentType": {
+        "message": "No podcast found"
     },
     "refreshSegments": {
         "message": "تحديث الفقرات"
@@ -1055,6 +1061,9 @@
     },
     "darkModeOptionsPage": {
         "message": "الوضع الداكن في صفحة الخيارات"
+    },
+    "prideTheme": {
+        "message": "Pride theme"
     },
     "helpPageThanksForInstalling": {
         "message": "شكرا على تثبيت SponsorBlock."
