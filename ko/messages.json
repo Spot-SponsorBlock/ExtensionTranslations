@@ -7,6 +7,12 @@
         "message": "YouTube 영상의 스폰서 광고, '구독과 좋아요' 광고 같이 쓸데없는 광고를 모두 건너뛰세요. 영상의 스폰서 광고 구간을 신고하여 다른 사람들의 시간을 절약할 수 있게 해주세요.",
         "description": "Description of the extension."
     },
+    "400": {
+        "message": "Server said this request was invalid."
+    },
+    "409": {
+        "message": "This has already been submitted before."
+    },
     "Segment": {
         "message": "구간"
     },
@@ -22,6 +28,9 @@
     "renderAsChapters": {
         "message": "챕터처럼 구간을 불러오기",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
+    },
+    "segmentListDefaultTab": {
+        "message": "Default tab in segment list popup"
     },
     "showSegmentNameInChapterBar": {
         "message": "동영상 시간 옆에 현재 구간 표시"
@@ -92,6 +101,9 @@
     "noVideoID": {
         "message": "YouTube 동영상을 찾지 못했어요.\n오류라고 생각된다면, 탭을 새로고침하세요."
     },
+    "wrongContentType": {
+        "message": "No podcast found"
+    },
     "refreshSegments": {
         "message": "구간 새로고침"
     },
@@ -103,6 +115,10 @@
     },
     "serverDown": {
         "message": "서버가 다운된 것 같아요. 개발자에게 연락해 주세요."
+    },
+    "connectionError": {
+        "message": "A connection error has occurred.",
+        "description": "Appears in the popup above the refresh button if an error occurred when attempting to send a request. The error code or message will be appended below this string."
     },
     "segmentsStillLoading": {
         "message": "구간을 여전히 불러오는 중이에요..."
@@ -176,6 +192,13 @@
     },
     "hideThis": {
         "message": "숨기기"
+    },
+    "collapseChapters": {
+        "message": "Collapse inner chapters"
+    },
+    "expandChapters": {
+        "message": "Show {0} inner chapters",
+        "description": "{0} is replaced by a number. Always more than 1. Example: Show 3 inner chapters"
     },
     "Options": {
         "message": "설정"
@@ -344,6 +367,10 @@
     },
     "502": {
         "message": "서버가 과부하 된 것 같아요. 몇 초 후에 다시 시도해 보세요."
+    },
+    "errorCode": {
+        "message": "Server returned status code {code}.",
+        "description": "Used as an error message for HTTP errors returned by the server. {code} will be replaced by the status code. https://en.wikipedia.org/wiki/HTTP_status_code"
     },
     "skip": {
         "message": "건너뛰기"
@@ -803,6 +830,10 @@
     "category_livestream_messages_short": {
         "message": "후원자 메시지 구간"
     },
+    "fallbackToDefault": {
+        "message": "Fallback to default",
+        "description": "Used in the channel specific settings to fallback to the default option."
+    },
     "autoSkip": {
         "message": "자동 건너뛰기"
     },
@@ -1030,6 +1061,9 @@
     },
     "darkModeOptionsPage": {
         "message": "설정 페이지에서 어두운 모드 사용"
+    },
+    "prideTheme": {
+        "message": "Pride theme"
     },
     "helpPageThanksForInstalling": {
         "message": "SponsorBlock을 설치해 주셔서 감사드려요."
@@ -1650,14 +1684,30 @@
         "message": "정말로 이 구성을 삭제할까요?",
         "description": "Appears when deleting a configuration for channel-based settings"
     },
+    "NewConfiguration": {
+        "message": "New configuration"
+    },
+    "CreateNewConfiguration": {
+        "message": "Create new configuration"
+    },
+    "DeleteConfiguration": {
+        "message": "Delete configuration"
+    },
     "ChannelAllowlist": {
         "message": "채널별 설정"
     },
     "ConfigurationName": {
         "message": "구성 이름"
     },
+    "DefaultConfiguration": {
+        "message": "Default configuration"
+    },
     "ChannelListInstructions": {
         "message": "아래 칸에 이 구성을 적용할 채널을 줄바꿈으로 구분해 입력하세요. 채널 ID나 채널 이름을 입력할 수 있어요. @핸들은 지원하지 않아요. 채널 ID는 채널 내 정보 페이지의 공유 버튼을 눌러 확인할 수 있어요. 정보 페이지로 가려면, 채널 페이지의 이름 아래에 표시되는 채널 설명을 누르세요.",
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
+    },
+    "ChannelListInstructionsSB": {
+        "message": "Add channels that should use this alternative skip profile by clicking the button in the popup on a video made by that channel. The list of channels will appear below.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
@@ -1894,5 +1944,61 @@
     "hookNewFeature": {
         "message": "알림: 미리 보기/요약 카테고리가 후킹 카테고리로 변경됐어요",
         "description": "The category definition has changed, this notice let's people know when they are submitting."
+    },
+    "segmentHideFailed": {
+        "message": "Failed to permanently hide/unhide the requested segment, as the segment's UUID could not be resolved:",
+        "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
+    },
+    "skipProfile_forAnHour": {
+        "message": "For an hour",
+        "description": "Option in skip profiles to set this skip profile as the active one for an hour"
+    },
+    "skipProfile_forThisTab": {
+        "message": "For this tab",
+        "description": "Option in skip profiles to set this skip profile as the active one for this tab"
+    },
+    "skipProfile_forJustThisVideo": {
+        "message": "For just this video",
+        "description": "Option in skip profiles to set this skip profile as the active one for just this video"
+    },
+    "skipProfile_forThisChannel": {
+        "message": "For this channel",
+        "description": "Option in skip profiles to set this skip profile as the active one for this channel"
+    },
+    "clickToNotApplyThisProfile": {
+        "message": "Click to not apply this skip profile"
+    },
+    "skipProfileBeingOverriddenByHigherPriority": {
+        "message": "This option is being overridden by a higher priority option",
+        "description": "Appears when a skip profile is not being applied because a higher priority reason is (for one hour replacing for this channel)"
+    },
+    "clickToApplyThisProfile": {
+        "message": "Click to apply this skip profile"
+    },
+    "selectASkipProfileFirst": {
+        "message": "Select a skip profile first",
+        "description": "In skip profile menu in popup when you haven't selected a skip profile to edit yet"
+    },
+    "SelectASkipProfile": {
+        "message": "Select a skip profile"
+    },
+    "SkipProfileMenu": {
+        "message": "Skip profile menu"
+    },
+    "WhitelistedChannels": {
+        "message": "Whitelisted channels",
+        "description": "Name used when converting old whitelisted channels to skip profiles"
+    },
+    "addChannelToSkipProfile": {
+        "message": "Add channel to skip profile"
+    },
+    "editChannelsSkipProfile": {
+        "message": "Change this channel's skip profile"
+    },
+    "editActiveSkipProfile": {
+        "message": "Change active skip profile"
+    },
+    "closeSkipProfileMenu": {
+        "message": "Close skip profile menu"
     }
 }
