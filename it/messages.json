@@ -101,6 +101,9 @@
     "noVideoID": {
         "message": "Nessun video YouTube trovato.\nSe è un errore, ricarica la scheda."
     },
+    "wrongContentType": {
+        "message": "No podcast found"
+    },
     "refreshSegments": {
         "message": "Ricarica i segmenti"
     },
