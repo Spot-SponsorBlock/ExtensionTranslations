@@ -7,6 +7,12 @@
         "message": "דלג על החסויות, ההתחננויות לעשות מנוי ועוד בסרטוני יוטיוב. דווח על ספונסרים בסרטונים שאתה צופה בהם כדי לחסוך לאחרים זמן.",
         "description": "Description of the extension."
     },
+    "400": {
+        "message": "Server said this request was invalid."
+    },
+    "409": {
+        "message": "This has already been submitted before."
+    },
     "Segment": {
         "message": "מקטע"
     },
@@ -22,6 +28,9 @@
     "renderAsChapters": {
         "message": "עיבוד קטעים כפרקים",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
+    },
+    "segmentListDefaultTab": {
+        "message": "Default tab in segment list popup"
     },
     "showSegmentNameInChapterBar": {
         "message": "הצגת קטע נוכחי לצד זמן וידאו"
@@ -92,6 +101,9 @@
     "noVideoID": {
         "message": "לא נמצא סרטון יוטיוב.\nאם זה לא נכון, רענן את הכרטיסייה."
     },
+    "wrongContentType": {
+        "message": "No podcast found"
+    },
     "refreshSegments": {
         "message": "ריענון קטעים"
     },
@@ -103,6 +115,10 @@
     },
     "serverDown": {
         "message": "נראה שהשרת נפל. צור קשר עם המפתח מיד."
+    },
+    "connectionError": {
+        "message": "A connection error has occurred.",
+        "description": "Appears in the popup above the refresh button if an error occurred when attempting to send a request. The error code or message will be appended below this string."
     },
     "segmentsStillLoading": {
         "message": "קטעים עדיין נטענים..."
@@ -176,6 +192,13 @@
     },
     "hideThis": {
         "message": "להסתיר את זה"
+    },
+    "collapseChapters": {
+        "message": "Collapse inner chapters"
+    },
+    "expandChapters": {
+        "message": "Show {0} inner chapters",
+        "description": "{0} is replaced by a number. Always more than 1. Example: Show 3 inner chapters"
     },
     "Options": {
         "message": "אפשרויות"
@@ -344,6 +367,10 @@
     },
     "502": {
         "message": "נראה שהשרת עמוס יתר על המידה. יש לנסות שוב בעוד מספר שניות."
+    },
+    "errorCode": {
+        "message": "Server returned status code {code}.",
+        "description": "Used as an error message for HTTP errors returned by the server. {code} will be replaced by the status code. https://en.wikipedia.org/wiki/HTTP_status_code"
     },
     "skip": {
         "message": "דילוג"
@@ -703,6 +730,9 @@
     "category_outro_guideline1": {
         "message": "אל תכלול תוכן, גם אם מופיעים כרטיסי קצה על המסך"
     },
+    "category_preview": {
+        "message": "Preview/Recap"
+    },
     "category_preview_description": {
         "message": "אוסף קליפים המציגים מה עולה בסרטון זה או סרטונים אחרים בסדרה שבה כל המידע חוזר על עצמו בהמשך הסרטון."
     },
@@ -714,6 +744,22 @@
     },
     "category_preview_guideline3": {
         "message": "לא לקטעים שמציגים תוכן נוסף"
+    },
+    "category_hook": {
+        "message": "Hook/Greetings",
+        "description": "https://en.wikipedia.org/wiki/Narrative_hook"
+    },
+    "category_hook_description": {
+        "message": "Narrated trailers for the upcoming video, greetings and goodbyes. This should not skip conclusions with information."
+    },
+    "category_hook_guideline1": {
+        "message": "Narrated trailers for the upcoming video"
+    },
+    "category_hook_guideline2": {
+        "message": "Greetings and goodbye sections welcoming viewers"
+    },
+    "category_hook_guideline3": {
+        "message": "Not for sections that add additional content"
     },
     "category_filler": {
         "message": "טנג'נטים/בדיחות"
@@ -784,6 +830,10 @@
     "category_livestream_messages_short": {
         "message": "קריאת הודעה"
     },
+    "fallbackToDefault": {
+        "message": "Fallback to default",
+        "description": "Used in the channel specific settings to fallback to the default option."
+    },
     "autoSkip": {
         "message": "דילוג אוטומטי"
     },
@@ -841,6 +891,16 @@
     "skipOption": {
         "message": "אפשרות דילוג",
         "description": "Used on the options page to describe the ways to skip the segment (auto skip, manual, etc.)"
+    },
+    "openAdvancedSkipOptions": {
+        "message": "Open advanced skip options"
+    },
+    "advancedSkipNotSaved": {
+        "message": "Syntax error: Your options have not been saved"
+    },
+    "advancedSkipSettingsHelp": {
+        "message": "How this works",
+        "description": "Link in advanced skip options to the help page."
     },
     "enableTestingServer": {
         "message": "אפשר שרת בדיקת בטא"
@@ -993,11 +1053,17 @@
     "considerDonating": {
         "message": "עזרו לממן את הפיתוח"
     },
+    "supportSponsorBlock": {
+        "message": "Support my full-time work on SponsorBlock"
+    },
     "hideDonationLink": {
         "message": "הסתרת כפתור תרומה"
     },
     "darkModeOptionsPage": {
         "message": "מצב כהה בדף האפשרויות"
+    },
+    "prideTheme": {
+        "message": "Pride theme"
     },
     "helpPageThanksForInstalling": {
         "message": "תודה שהתקנת את ספונסרבלוק."
@@ -1008,14 +1074,35 @@
     "helpPageFeatureDisclaimer": {
         "message": "תכונות רבות כבויות כברירת מחדל. אם אתה רוצה לדלג על פתיחים/סגירים, השתמש ב- Invidious וכו ', הפעל את זה למטה. אתה יכול גם להסתיר/להציג אלמנטים של ממשק משתמש."
     },
+    "helpPageHowSkippingWorks": {
+        "message": "How it works"
+    },
+    "helpPageHowSkippingWorks1": {
+        "message": "All sponsors are submitted by users like you. You can see the list of submitted sponsors in the database by opening the popup in the top right of your browser."
+    },
     "helpPageHowSkippingWorks2": {
         "message": "בכל פעם שתדלג על קטע, תבחין. אם התזמון נראה לא נכון הצבעה על ידי לחיצה על הדיסלייק! אתה יכול גם להצביע בלייק."
     },
     "Submitting": {
         "message": "שולח"
     },
+    "helpPageSubmitting1": {
+        "message": "Submitting can be made by clicking the SponsorBlock logo in the video player."
+    },
+    "helpPageSubmitting2": {
+        "message": "Clicking the play button indicates the start of a segment and clicking the stop icon indicates the end. Click the up arrow button to open the submission menu where you can verify your segments by previewing and editing them to be perfect. Precision is important, make sure to read the guidelines before submitting."
+    },
+    "helpPageCopyOfDatabase": {
+        "message": "Where do the submissions go?"
+    },
+    "helpPageCopyOfDatabase1": {
+        "message": "All submissions are put into the SponsorBlock database, which is publicly released for anyone to use and is available at"
+    },
     "helpPageCopyOfDatabase2": {
         "message": "קוד המקור זמין באופן חופשי ובחינם. אז, אפילו אם משהו יקרה לי, המקטעים שהגשתם לא יאבדו."
+    },
+    "AdviceForSubmitting": {
+        "message": "Advice for submitting"
     },
     "Credits": {
         "message": "קרדיטים"
@@ -1287,6 +1374,12 @@
     },
     "shouldCleanEmojis": {
         "message": "הסר אימוגים"
+    },
+    "formatCustomTitles": {
+        "message": "Format user-submitted titles"
+    },
+    "formatOriginalTitles": {
+        "message": "Format original titles"
     },
     "onlyTitleCaseInEnglish": {
         "message": "כתבו מילים באותיות גדולות עבור כותרות שאינן באנגלית"
@@ -1591,14 +1684,30 @@
         "message": "האם אתה בטוח שברצונך למחוק תצורה זו?",
         "description": "Appears when deleting a configuration for channel-based settings"
     },
+    "NewConfiguration": {
+        "message": "New configuration"
+    },
+    "CreateNewConfiguration": {
+        "message": "Create new configuration"
+    },
+    "DeleteConfiguration": {
+        "message": "Delete configuration"
+    },
     "ChannelAllowlist": {
         "message": "הגדרות ערוץ ספציפיות"
     },
     "ConfigurationName": {
         "message": "שם תצורה"
     },
+    "DefaultConfiguration": {
+        "message": "Default configuration"
+    },
     "ChannelListInstructions": {
         "message": "הזן את כל הערוצים שברצונך להחיל עליהם תצורה זו בתיבה למטה, מופרדים על ידי שורות חדשות. גם מזהי ערוצים וגם שמות תצוגה נתמכים. שמות משתמש @ אינם נתמכים. ניתן לקבל מזהי ערוצים על ידי לחיצה על כפתור השיתוף בדף 'אודות' של הערוץ. כדי להגיע לדף 'אודות', לחץ על תיאור הערוץ שמופיע מתחת לשם הערוץ בדף הערוץ.",
+        "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
+    },
+    "ChannelListInstructionsSB": {
+        "message": "Add channels that should use this alternative skip profile by clicking the button in the popup on a video made by that channel. The list of channels will appear below.",
         "description": "Instructions for the channel-specific settings feature in DeArrow to configure settings for specific channels"
     },
     "NoConfigurationsSetup": {
@@ -1716,6 +1825,9 @@
     "cleanPopup": {
         "message": "הסתר פריטים מיותרים בחלון רשימת המקטעים"
     },
+    "hideSegmentCreationInPopup": {
+        "message": "Hide segment creation buttons in popup"
+    },
     "syncDisabledWarning": {
         "message": "אזהרה: אחסון התוספים הושבת בדפדפן שלך. הגדרות לא יישמרו אם תנסה לשמור אותן."
     },
@@ -1822,7 +1934,71 @@
     "onlyShowCasualIconForCustom": {
         "message": "הצג סמל מצב מזדמן רק כאשר כותרת מותאמת אישית זמינה"
     },
+    "dontFormatCasualTitles": {
+        "message": "Don't format casual mode titles",
+        "description": "Option for casual mode in DeArrow"
+    },
     "OpenSettings": {
         "message": "פתח הגדרות"
+    },
+    "hookNewFeature": {
+        "message": "Notice: Hook has been moved from the Preview/Recap category to the new Hook/Greetings category",
+        "description": "The category definition has changed, this notice let's people know when they are submitting."
+    },
+    "segmentHideFailed": {
+        "message": "Failed to permanently hide/unhide the requested segment, as the segment's UUID could not be resolved:",
+        "description": "This message is shown when a segment could not be hidden because a request to resolve the segment's UUID failed. One of the general request error messages will be appended to this message."
+    },
+    "skipProfile_forAnHour": {
+        "message": "For an hour",
+        "description": "Option in skip profiles to set this skip profile as the active one for an hour"
+    },
+    "skipProfile_forThisTab": {
+        "message": "For this tab",
+        "description": "Option in skip profiles to set this skip profile as the active one for this tab"
+    },
+    "skipProfile_forJustThisVideo": {
+        "message": "For just this video",
+        "description": "Option in skip profiles to set this skip profile as the active one for just this video"
+    },
+    "skipProfile_forThisChannel": {
+        "message": "For this channel",
+        "description": "Option in skip profiles to set this skip profile as the active one for this channel"
+    },
+    "clickToNotApplyThisProfile": {
+        "message": "Click to not apply this skip profile"
+    },
+    "skipProfileBeingOverriddenByHigherPriority": {
+        "message": "This option is being overridden by a higher priority option",
+        "description": "Appears when a skip profile is not being applied because a higher priority reason is (for one hour replacing for this channel)"
+    },
+    "clickToApplyThisProfile": {
+        "message": "Click to apply this skip profile"
+    },
+    "selectASkipProfileFirst": {
+        "message": "Select a skip profile first",
+        "description": "In skip profile menu in popup when you haven't selected a skip profile to edit yet"
+    },
+    "SelectASkipProfile": {
+        "message": "Select a skip profile"
+    },
+    "SkipProfileMenu": {
+        "message": "Skip profile menu"
+    },
+    "WhitelistedChannels": {
+        "message": "Whitelisted channels",
+        "description": "Name used when converting old whitelisted channels to skip profiles"
+    },
+    "addChannelToSkipProfile": {
+        "message": "Add channel to skip profile"
+    },
+    "editChannelsSkipProfile": {
+        "message": "Change this channel's skip profile"
+    },
+    "editActiveSkipProfile": {
+        "message": "Change active skip profile"
+    },
+    "closeSkipProfileMenu": {
+        "message": "Close skip profile menu"
     }
 }
