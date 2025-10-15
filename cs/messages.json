@@ -29,6 +29,9 @@
         "message": "Zobrazit segmenty jako kapitoly",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
     },
+    "segmentListDefaultTab": {
+        "message": "Default tab in segment list popup"
+    },
     "showSegmentNameInChapterBar": {
         "message": "Zobrazit aktuální segment vedle času videa"
     },
@@ -97,6 +100,9 @@
     },
     "noVideoID": {
         "message": "Nebylo nalezeno žádné YouTube video.\nPokud je to špatně, obnovte kartu."
+    },
+    "wrongContentType": {
+        "message": "No podcast found"
     },
     "refreshSegments": {
         "message": "Aktualizovat segmenty"
@@ -1055,6 +1061,9 @@
     },
     "darkModeOptionsPage": {
         "message": "Tmavý režim na stránce možností"
+    },
+    "prideTheme": {
+        "message": "Pride theme"
     },
     "helpPageThanksForInstalling": {
         "message": "Děkujeme za instalaci SponsorBlocku."
