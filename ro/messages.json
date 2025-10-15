@@ -29,6 +29,9 @@
         "message": "Afișați segmentele folosind formatul capitolelor",
         "description": "Refers to drawing segments on the YouTube seek bar as split up chapters, similar to the existing chapter system"
     },
+    "segmentListDefaultTab": {
+        "message": "Default tab in segment list popup"
+    },
     "showSegmentNameInChapterBar": {
         "message": "Afișați segmentul curent lângă indicatorul de timp"
     },
@@ -97,6 +100,9 @@
     },
     "noVideoID": {
         "message": "Momentan, nu urmăriți un videoclip YouTube.\nPentru a scana din nou, reîmprospătați pagina."
+    },
+    "wrongContentType": {
+        "message": "No podcast found"
     },
     "refreshSegments": {
         "message": "Reîmprospătare segmente"
@@ -186,6 +192,13 @@
     },
     "hideThis": {
         "message": "Ascunde asta"
+    },
+    "collapseChapters": {
+        "message": "Collapse inner chapters"
+    },
+    "expandChapters": {
+        "message": "Show {0} inner chapters",
+        "description": "{0} is replaced by a number. Always more than 1. Example: Show 3 inner chapters"
     },
     "Options": {
         "message": "Opțiuni"
@@ -1048,6 +1061,9 @@
     },
     "darkModeOptionsPage": {
         "message": "Temă întunecată pentru pagina de opțiuni"
+    },
+    "prideTheme": {
+        "message": "Pride theme"
     },
     "helpPageThanksForInstalling": {
         "message": "Vă mulțumim pentru instalarea SponsorBlock."
@@ -1975,6 +1991,12 @@
     },
     "addChannelToSkipProfile": {
         "message": "Adaugă canalul la profilul de sărit"
+    },
+    "editChannelsSkipProfile": {
+        "message": "Change this channel's skip profile"
+    },
+    "editActiveSkipProfile": {
+        "message": "Change active skip profile"
     },
     "closeSkipProfileMenu": {
         "message": "Închide meniul de sărit profil"
