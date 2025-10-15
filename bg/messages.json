@@ -101,6 +101,9 @@
     "noVideoID": {
         "message": "Не е намерен видеоклип в YouTube.\nАко това не е правилно, опреснете раздела."
     },
+    "wrongContentType": {
+        "message": "No podcast found"
+    },
     "refreshSegments": {
         "message": "Опресняване на сегментите"
     },
