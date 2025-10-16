@@ -151,7 +151,7 @@
     },
     "submissionEditHint": {
         "message": "Section editing will appear after you click submit",
-        "description": "Appears in the popup to inform them that editing has been moved to the video player."
+        "description": "Appears in the popup to inform them that editing has been moved to the media player."
     },
     "popupHint": {
         "message": "Hint: You can setup keybinds for submitting in the options"
@@ -233,7 +233,7 @@
         "message": "Query By Hash Prefix"
     },
     "whatQueryByHashPrefix": {
-        "message": "Instead of requesting segments from the server using the videoID, the first 4 characters of the hash of the videoID are sent. This server will send back data for all videos with similar hashes."
+        "message": "Instead of requesting segments from the server using the videoID, the first 4 characters of the hash of the videoID are sent. This server will send back data for all episodes with similar hashes."
     },
     "enableShowCategoryWithoutPermission": {
         "message": "Show categories in submission menu even without submission permission"
@@ -746,8 +746,8 @@
         "description": "Referring to the category pill that is now shown on episodes that are entirely sponsor or entirely selfpromo"
     },
     "fullVideoLabelsOnThumbnails": {
-        "message": "Show labels on video thumbnails as well",
-        "description": "Referring to the category pill that is shown on videos that are entirely sponsor or entirely selfpromo on recommended videos, in searches or on the homepage."
+        "message": "Show labels on episode pages as well",
+        "description": "Referring to the category pill that is shown on episodes that are entirely sponsor or entirely selfpromo on episode or show pages."
     },
     "previewColor": {
         "message": "Unsubmitted color",
@@ -948,7 +948,7 @@
         "message": "Submitting"
     },
     "helpPageSubmitting1": {
-        "message": "Submitting can be made by clicking the SponsorBlock logo in the video player."
+        "message": "Submitting can be made by clicking the SponsorBlock segment button in the media player."
     },
     "helpPageSubmitting2": {
         "message": "Clicking the play button indicates the start of a segment and clicking the stop icon indicates the end. Click the up arrow button to open the submission menu where you can verify your segments by previewing and editing them to be perfect. Precision is important, make sure to read the guidelines before submitting."
@@ -1057,7 +1057,7 @@
         "message": "Change"
     },
     "youtubeKeybindWarning": {
-        "message": "This is a built-in YouTube shortcut. Are you sure you want to use it?"
+        "message": "This is a built-in Spotify shortcut. Are you sure you want to use it?"
     },
     "betaServerWarning": {
         "message": "BETA Server is enabled!"
