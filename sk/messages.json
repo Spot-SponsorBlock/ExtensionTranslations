@@ -443,6 +443,12 @@
     "createdBy": {
         "message": "Created By"
     },
+    "the": {
+        "message": "The"
+    },
+    "team": {
+        "message": "Team"
+    },
     "optionsInfo": {
         "message": "Disable auto skip, hide buttons and more."
     },
@@ -558,7 +564,7 @@
         "message": "Failed to write to clipboard"
     },
     "copyDebugInformationOptions": {
-        "message": "Copies information to the clipboard to be provided to a developer when raising a bug / when a developer requests it. Sensitive information such as your user ID, whitelisted channels, and custom server address have been removed. However it does contain information such as your useragent, browser, operating system, and extension version number. "
+        "message": "Copies information to the clipboard to be provided to a developer when raising a bug / when a developer requests it. Sensitive information such as your user ID, whitelisted shows, and custom server address have been removed. However it does contain information such as your useragent, browser, operating system, and extension version number. "
     },
     "copyDebugInformationComplete": {
         "message": "The debug information has been copied to the clip board. Feel free to remove any information you would rather not share. Save this in a text file or paste into the bug report."
@@ -742,12 +748,12 @@
         "message": "Show label"
     },
     "fullVideoSegments": {
-        "message": "Show an icon when a episode is entirely an advertisement",
+        "message": "Show an icon when an episode is entirely an advertisement",
         "description": "Referring to the category pill that is now shown on episodes that are entirely sponsor or entirely selfpromo"
     },
     "fullVideoLabelsOnThumbnails": {
         "message": "Show labels on episode pages as well",
-        "description": "Referring to the category pill that is shown on episodes that are entirely sponsor or entirely selfpromo on episode or show pages."
+        "description": "Referring to the category pill that is shown on episodes that are entirely sponsor or entirely selfpromo on episode or podcast show pages."
     },
     "previewColor": {
         "message": "Unsubmitted color",
@@ -822,7 +828,7 @@
     },
     "channelDataNotFound": {
         "description": "This error appears in an alert when they try to whitelist a show and the extension is unable to determine what show they are looking at.",
-        "message": "Channel ID is not loaded yet. This could be caused by changes in the Spotify layout, if you think so, make a comment here:"
+        "message": "Show ID is not loaded yet. This could be caused by changes in the Spotify layout, if you think so, make a comment here:"
     },
     "acceptPermission": {
         "message": "Accept permission"
@@ -834,13 +840,13 @@
         "message": "Permission request failed, did you click deny?"
     },
     "forceChannelCheck": {
-        "message": "Force show check before skipping"
+        "message": "Force podcast show check before skipping"
     },
     "whatForceChannelCheck": {
-        "message": "By default, it will skip segments right away before it even knows what the show is. By default, some segments at the start of the episode might be skipped on whitelisted shows. Enabling this option will prevent this but making all skipping have a slight delay as getting the channelID can take some time. This delay might be unnoticeable if you have fast internet."
+        "message": "By default, it will skip segments right away before it even knows what the show is. By default, some segments at the start of the episode might be skipped on whitelisted shows. Enabling this option will prevent this but making all skipping have a slight delay as getting the showID can take some time. This delay might be unnoticeable if you have fast internet."
     },
     "forceChannelCheckPopup": {
-        "message": "Consider Enabling \"Force show check before skipping\""
+        "message": "Consider Enabling \"Force podcast show check before skipping\""
     },
     "downvoteDescription": {
         "message": "Incorrect/Wrong Timing"
@@ -915,7 +921,7 @@
         "message": "Help fund development"
     },
     "supportSponsorBlock": {
-        "message": "Support our full-time work on Spot SponsorBlock"
+        "message": "Support our development of Spot SponsorBlock"
     },
     "hideDonationLink": {
         "message": "Hide donation link"
@@ -1008,7 +1014,7 @@
         "message": "Use your mousewheel while hovering over the edit box to quickly adjust the time. Combinations of the ctrl or shift key can be used to fine tune the changes."
     },
     "categoryPillNewFeature": {
-        "message": "New! See when a episode is entirely sponsored or self-promotion"
+        "message": "New! See when an episode is entirely sponsored or self-promotion"
     },
     "yearAbbreviation": {
         "message": "y",
@@ -1214,7 +1220,7 @@
         "message": "Delete configuration"
     },
     "ChannelAllowlist": {
-        "message": "Channel-specific settings"
+        "message": "Show-specific settings"
     },
     "ConfigurationName": {
         "message": "Configuration Name"
@@ -1223,7 +1229,7 @@
         "message": "Default configuration"
     },
     "ChannelListInstructionsSB": {
-        "message": "Add shows that should use this alternative skip profile by clicking the button in the popup on a episode made by that show. The list of shows will appear below.",
+        "message": "Add shows that should use this alternative skip profile by clicking the button in the popup on an episode made by that show. The list of shows will appear below.",
         "description": "Instructions for the show-specific settings feature to configure settings for specific shows"
     },
     "NoConfigurationsSetup": {
