@@ -94,6 +94,9 @@
     "wrongContentType": {
         "message": "Spot SponsorBlock only supports podcasts"
     },
+    "isExternalDevice": {
+        "message": "Spot SponsorBlock does not work while playing on an external device"
+    },
     "refreshSegments": {
         "message": "Refresh segments"
     },
