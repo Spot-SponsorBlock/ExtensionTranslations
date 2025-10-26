@@ -4,7 +4,7 @@
         "description": "Name of the extension."
     },
     "Description": {
-        "message": "Skip sponsorships, annoying advertisements and more on Spotify podcasts. Report sponsors on episodes you listen to and save others' time.",
+        "message": "Skip sponsorships, advertisements and more on Spotify podcasts. Report sponsors on episodes you listen to and save others' time.",
         "description": "Description of the extension."
     },
     "400": {
