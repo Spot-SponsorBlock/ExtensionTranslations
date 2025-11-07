@@ -638,7 +638,7 @@
         "message": "Intermission/Intro"
     },
     "category_intro_description": {
-        "message": "An interval without actual content. Could be a pause, jingle, intro music. This should not be used for transitions containing information."
+        "message": "An interval without actual content. Could be a pause, jingle, intro. This should not be used for transitions containing information."
     },
     "category_intro_short": {
         "message": "Intermission"
@@ -650,10 +650,10 @@
         "message": "Not for transitions with information"
     },
     "category_outro": {
-        "message": "Outro/Credits"
+        "message": "Credits/Outro"
     },
     "category_outro_description": {
-        "message": "Credits or outro music. Not for conclusions with information."
+        "message": "Credits or outro. Not for conclusions with information."
     },
     "category_outro_guideline1": {
         "message": "Don't include content"
