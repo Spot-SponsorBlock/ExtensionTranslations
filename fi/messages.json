@@ -106,7 +106,7 @@
         "message": "Credits or outro. Not for conclusions with information."
     },
     "category_outro_guideline1": {
-        "message": "Don't include content"
+        "message": "Älä sisällytä sisältöä"
     },
     "category_preview_description": {
         "message": "Collection of clips that show what is coming up in in this episode or other episodes in a series where all information is repeated later in the episode."
@@ -147,7 +147,7 @@
         "description": "Referring to the category pill that is now shown on episodes that are entirely sponsor or entirely selfpromo"
     },
     "fullVideoLabelsOnThumbnails": {
-        "message": "Show labels on episode pages as well",
+        "message": "Näytä tunnisteet myös jaksosivuilla",
         "description": "Referring to the category pill that is shown on episodes that are entirely sponsor or entirely selfpromo on episode or podcast show pages."
     },
     "channelDataNotFound": {
@@ -173,7 +173,7 @@
         "message": "Support our development of Spot SponsorBlock"
     },
     "helpPageThanksForInstalling": {
-        "message": "Thanks for installing Spot SponsorBlock."
+        "message": "Kiitos, kun asensit Spot SponsorBlockin."
     },
     "helpPageFeatureDisclaimer": {
         "message": "Many features are disabled by default. If you want to skip intros, outros, etc., enable them below. You can also hide/show UI elements."
@@ -185,14 +185,14 @@
         "message": "New! See when an episode is entirely sponsored or self-promotion"
     },
     "youtubeKeybindWarning": {
-        "message": "This is a built-in Spotify shortcut. Are you sure you want to use it?"
+        "message": "Tämä on Spotifyn sisäänrakennettu pikanäppäin. Haluatko varmasti käyttää sitä?"
     },
     "videosSingular": {
-        "message": "episode",
+        "message": "jaksossa",
         "description": "Example: You currently have 3 unsubmitted segments on 1 *episode*"
     },
     "videosPlural": {
-        "message": "episodes",
+        "message": "jaksossa",
         "description": "Example: You currently have 12 unsubmitted segments on 5 *episodes*"
     },
     "videoID": {
