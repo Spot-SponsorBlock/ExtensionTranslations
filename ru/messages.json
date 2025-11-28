@@ -66,16 +66,16 @@
         "message": "Для тех, кто хочет слушать выпуски полностью, даже если они целиком отмечены как реклама или самореклама."
     },
     "customServerAddressDescription": {
-        "message": "The address Spot SponsorBlock uses to make calls to the server.\nUnless you have your own server instance, this should not be changed."
+        "message": "Адрес сервера, к которому обращается Spot SponsorBlock.\nИзменяйте его только, если вы настроили свой экземпляр сервера."
     },
     "copyDebugInformationOptions": {
-        "message": "Copies information to the clipboard to be provided to a developer when raising a bug / when a developer requests it. Sensitive information such as your user ID, whitelisted shows, and custom server address have been removed. However it does contain information such as your useragent, browser, operating system, and extension version number. "
+        "message": "Копирует отладочную информацию, необходимую для разработчиков: user agent, тип и версию браузера, операционной системы и расширения. Такая конфиденциальная информация, как: идентификатор пользователя, белый список непропускаемых выпусков и адрес вашего экземпляра сервера — отправлены не будут."
     },
     "category_selfpromo_guideline2": {
-        "message": "Free shoutouts that don't add to the episode"
+        "message": "«Приветы» без сильной смысловой нагрузки"
     },
     "category_exclusive_access_description": {
-        "message": "Only for labeling entire episodes. Used when an episode showcases a product, service or location that they've received free or subsidized access to."
+        "message": "Только для всего видео. Используется, когда в выпуске демонстрируется бесплатный или проплаченный продукт или сервис."
     },
     "category_exclusive_access_pill": {
         "message": "This episode showcases a product, service or location that they've received free or subsidized access to",
