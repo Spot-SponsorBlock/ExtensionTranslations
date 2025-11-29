@@ -14,7 +14,8 @@
         "message": "This episode has segments in the database!"
     },
     "noVideoID": {
-        "message": "No media found"
+        "message": "No media found",
+        "description": "Displayed when the media player is completely empty / when no videoID could be found."
     },
 	"wrongContentType": {
 		"message": "Spot SponsorBlock only supports podcasts"
@@ -38,7 +39,7 @@
         "message": "Instead of requesting segments from the server using the videoID, the first 4 characters of the hash of the videoID are sent. This server will send back data for all episodes with similar hashes."
     },
     "longDescription": {
-        "message": "Spot SponsorBlock lets you skip over sponsors, intros, outros, advertisments, and other annoying parts of Spotify podcasts. Spot SponsorBlock is a crowdsourced browser extension that lets anyone submit the start and end times of sponsored segments and other segments of Spotify Podcasts. Once one person submits this information, everyone else with this extension will skip right over the sponsored segment.",
+        "message": "Spot SponsorBlock lets you skip over sponsors, intros, outros, advertisments, and other annoying parts of Spotify podcasts. Spot SponsorBlock is a crowdsourced browser extension that lets anyone submit the start and end times of sponsored segments and other segments of Spotify podcasts. Once one person submits this information, everyone else with this extension will skip right over the sponsored segment.",
         "description": "Full description of the extension on the store pages."
     },
     "full": {
