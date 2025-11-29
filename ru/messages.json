@@ -11,7 +11,7 @@
         "message": "Показывать эпизоды, сгенерированные самим Spotify"
     },
     "sponsorFound": {
-        "message": "Сегменты этого эпизода уже находятся в базе данных!"
+        "message": "Сегменты этого выпуска уже находятся в базе данных!"
     },
     "noVideoID": {
         "message": "No media found"
@@ -106,7 +106,7 @@
         "message": "Титры или конечная заставка. Не для подведения итогов или заключений."
     },
     "category_outro_guideline1": {
-        "message": "Don't include content"
+        "message": "Не для содержательных сегментов"
     },
     "category_preview_description": {
         "message": "Отрывки из выпуска или серии выпусков, которые затем появятся позже."
@@ -130,108 +130,108 @@
         "message": "Часть выпуска, которую ищет большинство слушателей. По сути заменяет комментарии вроде «Подкаст начинается с x»."
     },
     "category_poi_highlight_guideline3": {
-        "message": "Can skip to the title"
+        "message": "Пропускает выпуск до момента с его названием"
     },
     "category_chapter_description": {
-        "message": "Custom named chapters describing major sections of an episode."
+        "message": "Пользовательские названия эпизодов, описывающие основные разделы выпуска."
     },
     "fallbackToDefault": {
-        "message": "Fallback to default",
+        "message": "Возврат к значению по умолчанию",
         "description": "Used in the show specific settings to fallback to the default option."
     },
     "manualSkip_POI": {
-        "message": "Ask when episode loads"
+        "message": "Спрашивать после загрузки выпуска"
     },
     "fullVideoSegments": {
-        "message": "Show an icon when an episode is entirely an advertisement",
+        "message": "Показывать значок, если весь выпуск является рекламой",
         "description": "Referring to the category pill that is now shown on episodes that are entirely sponsor or entirely selfpromo"
     },
     "fullVideoLabelsOnThumbnails": {
-        "message": "Show labels on episode pages as well",
+        "message": "Показывать также значок на странице выпуска",
         "description": "Referring to the category pill that is shown on episodes that are entirely sponsor or entirely selfpromo on episode or podcast show pages."
     },
     "channelDataNotFound": {
         "description": "This error appears in an alert when they try to whitelist a show and the extension is unable to determine what show they are looking at.",
-        "message": "Show ID is not loaded yet. This could be caused by changes in the Spotify layout, if you think so, make a comment here:"
+        "message": "Идентификатор выпуска ещё не подгрузился. Может возникнуть из-за смены макета страницы, в таком случае оставьте комментарий здесь:"
     },
     "forceChannelCheck": {
-        "message": "Force podcast show check before skipping"
+        "message": "Принудительная проверка шоу перед пропуском"
     },
     "whatForceChannelCheck": {
-        "message": "By default, it will skip segments right away before it even knows what the show is. By default, some segments at the start of the episode might be skipped on whitelisted shows. Enabling this option will prevent this but making all skipping have a slight delay as getting the showID can take some time. This delay might be unnoticeable if you have fast internet."
+        "message": "По умолчанию расширение пропускает сегменты сразу же, не проверяя то, какой это канал. По умолчанию некоторые сегменты в начале выпуска могут быть пропущены на шоу из белого списка. Включение этой настройки предотвратит это, но все пропуски будут с небольшой задержкой, так как получение идентификатора шоу может занять некоторое время. Задержка может быть незаметной, если соединение с интернетом достаточно быстрое."
     },
     "forceChannelCheckPopup": {
-        "message": "Consider Enabling \"Force podcast show check before skipping\""
+        "message": "Рекомендуется включить принудительную проверку шоу перед пропуском"
     },
     "fullVideoTooltipWarning": {
-        "message": "This segment is large. If the whole episode is about one topic, then change from \"Skip\" to \"Full Episode\". See the guidelines for more information."
+        "message": "Сегмент слишком большой. Если видео только на одну тему, то измените значение с «Пропустить» на «Весь выпуск». Дополнительная информация в руководстве."
     },
     "categoryPillTitleText": {
-        "message": "This entire episode is labeled as this category and is too tightly integrated to be able to separate"
+        "message": "Данная категория применена на выпуск полностью, поскольку разделить его на сегменты слишком сложно из-за интеграции в нём"
     },
     "supportSponsorBlock": {
-        "message": "Support our development of Spot SponsorBlock"
+        "message": "Поддержите нашу разработку Spot SponsorBlock"
     },
     "helpPageThanksForInstalling": {
-        "message": "Thanks for installing Spot SponsorBlock."
+        "message": "Спасибо за установку Spot SponsorBlock."
     },
     "helpPageFeatureDisclaimer": {
-        "message": "Many features are disabled by default. If you want to skip intros, outros, etc., enable them below. You can also hide/show UI elements."
+        "message": "Многие функции по умолчанию отключены. Если вы хотите пропускать начальные и конечные заставки и т. д., включите их ниже. Вы также можете скрывать или не скрывать элементы интерфейса."
     },
     "helpPageSubmitting1": {
-        "message": "Submitting can be made by clicking the SponsorBlock segment button in the media player."
+        "message": "Отправка сегментов осуществляется нажатием на логотип SponsorBlock в проигрывателе."
     },
     "categoryPillNewFeature": {
-        "message": "New! See when an episode is entirely sponsored or self-promotion"
+        "message": "Новинка! Теперь можно узнать, является ли выпуск полностью рекламой или саморекламой"
     },
     "youtubeKeybindWarning": {
-        "message": "This is a built-in Spotify shortcut. Are you sure you want to use it?"
+        "message": "Это сочетание клавиш используется самим Spotify. Вы уверены, что хотите его использовать?"
     },
     "videosSingular": {
-        "message": "episode",
+        "message": "выпуске",
         "description": "Example: You currently have 3 unsubmitted segments on 1 *episode*"
     },
     "videosPlural": {
-        "message": "episodes",
+        "message": "выпусках",
         "description": "Example: You currently have 12 unsubmitted segments on 5 *episodes*"
     },
     "videoID": {
-        "message": "Episode ID",
+        "message": "Ид-р выпуска",
         "description": "Header of the unsubmitted segments list"
     },
     "segmentFetchFailureWarning": {
-        "message": "Warning: The server hasn't responded with segments yet. There might actually be segments in this episode already submitted but you just haven't received them due to issues with the server."
+        "message": "Внимание. Сервер ещё не прислал существующие сегменты. Для этого выпуска сегменты уже могут быть отмечены, однако вы их ещё не получили из-за проблем с сервером."
     },
     "FillerWarning": {
-        "message": "Warning: This is an incredibly aggressive category. You most likely will have to unskip stuff, or disable it sometimes. Be warned that many episodes have over 50% or more of the episode skipped! However, remember that there are still specific guidelines to follow when submitting.",
+        "message": "Внимание. Эта категория очень-очень строгая. Вероятно, вам придётся перематывать назад или иногда отключать её полностью. Имейте в виду, что во многих выпусках пропускается 50% хронометража или больше! Помните, что существуют конкретные правила для отправки сегментов этой категории.",
         "description": "Warning that appears when enabling the filler tangent category"
     },
     "ChannelAllowlist": {
-        "message": "Show-specific settings"
+        "message": "Настройки для отдельных шоу"
     },
     "ChannelListInstructionsSB": {
-        "message": "Add shows that should use this alternative skip profile by clicking the button in the popup on an episode made by that show. The list of shows will appear below.",
+        "message": "Добавить шоу в этот профиль настроек пропуска можно при помощи кнопки во всплывающем окне в выпуске. Список шоу появится ниже.",
         "description": "Instructions for the show-specific settings feature to configure settings for specific shows"
     },
     "videoIDWrongWhenSubmittingError": {
-        "message": "Something has gone wrong with the episodeID detection. Please try refreshing before submitting to ensure it gets submitted for the correct episode. If this is happening a lot, please send a report of this along with the other extensions or userscripts you have installed through GitHub or discord"
+        "message": "Произошла ошибка при попытке определить идентификатор выпуска. Пожалуйста, обновите страницу перед отправкой, чтобы убедиться, что сегменты будут отправлены для нужного выпуска. Если это происходит часто, пожалуйста, отправьте сообщение об этом в GitHub или Discord, дополнительно указав другие расширения или пользовательские скрипты, которые вы установили"
     },
     "skipProfile_forJustThisVideo": {
-        "message": "For just this episode",
+        "message": "Только для этого выпуска",
         "description": "Option in skip profiles to set this skip profile as the active one for just this episode"
     },
     "skipProfile_forThisChannel": {
-        "message": "For this show",
+        "message": "Для этого шоу",
         "description": "Option in skip profiles to set this skip profile as the active one for this show"
     },
     "WhitelistedChannels": {
-        "message": "Whitelisted shows",
+        "message": "Шоу из белого списка",
         "description": "Name used when converting old whitelisted shows to skip profiles"
     },
     "addChannelToSkipProfile": {
-        "message": "Add show to skip profile"
+        "message": "Добавить шоу в профиль настроек пропуска"
     },
     "editChannelsSkipProfile": {
-        "message": "Change this show's skip profile"
+        "message": "Изменить профиль настроек пропуска для этого шоу"
     }
 }
