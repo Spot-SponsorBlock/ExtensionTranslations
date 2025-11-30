@@ -39,7 +39,7 @@
         "message": "Sen sijaan, että videoID:tä käyttäen pyydettäisiin osioita palvelimelta, videoID:n tiivisteen 4 ensimmäistä merkkiä lähetetään. Palvelin lähettää takaisin dataa kaikista jaksoista, joilla on samankaltaiset tiivisteet."
     },
     "longDescription": {
-        "message": "Spot SponsorBlock lets you skip over sponsors, intros, outros, advertisments, and other annoying parts of Spotify podcasts. Spot SponsorBlock is a crowdsourced browser extension that lets anyone submit the start and end times of sponsored segments and other segments of Spotify podcasts. Once one person submits this information, everyone else with this extension will skip right over the sponsored segment.",
+        "message": "Spot SponsorBlock lets you skip over sponsors, intros, outros, advertisements, and other annoying parts of Spotify podcasts. Spot SponsorBlock is a crowdsourced browser extension that lets anyone submit the start and end times of sponsored segments and other segments of Spotify podcasts. Once one person submits this information, everyone else with this extension will skip right over the sponsored segment.",
         "description": "Full description of the extension on the store pages."
     },
     "full": {
