@@ -39,7 +39,7 @@
         "message": "Вместо запроса идентификатора видео с сервера, на него будут отправлены первые 4 символа хеша этого идентификатора. В ответ будут присланы данные по тем выпускам, хеши которых начинаются с этих символов."
     },
     "longDescription": {
-        "message": "Spot SponsorBlock позволяет пропускать спонсорские вставки, начальные и конечные заставки, рекламу, а также другие часто мешающие сегменты подкастов на Spotify. Любой может отметить время начала и конца таких сегментов в видео. После того, как вы нажимаете кнопку «отправить», у остальных пользователей расширения отмеченные сегменты будут пропускаться автоматически.",
+        "message": "Spot SponsorBlock lets you skip over sponsors, intros, outros, advertisements, and other annoying parts of Spotify podcasts. Spot SponsorBlock is a crowdsourced browser extension that lets anyone submit the start and end times of sponsored segments and other segments of Spotify podcasts. Once one person submits this information, everyone else with this extension will skip right over the sponsored segment.",
         "description": "Full description of the extension on the store pages."
     },
     "full": {
