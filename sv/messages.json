@@ -92,7 +92,7 @@
         "message": "When there is a short reminder to rate, subscribe or follow them in the middle of content. If it is long or about something specific, it should be under self promotion instead."
     },
     "category_interaction_guideline1": {
-        "message": "Short reminders to rate, share or follow"
+        "message": "Korta påminnelser att betygsätta, dela eller följa"
     },
     "category_intro": {
         "message": "Intermission/Intro"
@@ -107,7 +107,7 @@
         "message": "Credits or outro. Not for conclusions with information."
     },
     "category_outro_guideline1": {
-        "message": "Don't include content"
+        "message": "Inkludera ej innehåll"
     },
     "category_preview_description": {
         "message": "Collection of clips that show what is coming up in in this episode or other episodes in a series where all information is repeated later in the episode."
@@ -116,7 +116,7 @@
         "message": "Clips that appear later, or in a future episode"
     },
     "category_preview_guideline2": {
-        "message": "Recap of a previous episode"
+        "message": "Sammanfattning av en tidigare episod"
     },
     "category_hook_description": {
         "message": "Narrated trailers for the upcoming episode, greetings and goodbyes. This should not skip conclusions with information."
@@ -141,7 +141,7 @@
         "description": "Used in the show specific settings to fallback to the default option."
     },
     "manualSkip_POI": {
-        "message": "Ask when episode loads"
+        "message": "Fråga när episoden läses in"
     },
     "fullVideoSegments": {
         "message": "Show an icon when an episode is entirely an advertisement",
@@ -189,26 +189,26 @@
         "message": "This is a built-in Spotify shortcut. Are you sure you want to use it?"
     },
     "videosSingular": {
-        "message": "episode",
+        "message": "episod",
         "description": "Example: You currently have 3 unsubmitted segments on 1 *episode*"
     },
     "videosPlural": {
-        "message": "episodes",
+        "message": "episoder",
         "description": "Example: You currently have 12 unsubmitted segments on 5 *episodes*"
     },
     "videoID": {
-        "message": "Episode ID",
+        "message": "Episod ID",
         "description": "Header of the unsubmitted segments list"
     },
     "segmentFetchFailureWarning": {
         "message": "Warning: The server hasn't responded with segments yet. There might actually be segments in this episode already submitted but you just haven't received them due to issues with the server."
     },
     "FillerWarning": {
-        "message": "Warning: This is an incredibly aggressive category. You most likely will have to unskip stuff, or disable it sometimes. Be warned that many episodes have over 50% or more of the episode skipped! However, remember that there are still specific guidelines to follow when submitting.",
+        "message": "Varning: Det här är en väldigt aggressiv kategori. Du kommer antagligen behöva skippa tillbaka eller stänga av kategorin ibland. Många episoder har mer än 50% av episoden skippad! Observera att det fortfarande finns vissa riktlinjer att följa vid inskickning av segment.",
         "description": "Warning that appears when enabling the filler tangent category"
     },
     "ChannelAllowlist": {
-        "message": "Show-specific settings"
+        "message": "Visa specifika inställningar"
     },
     "ChannelListInstructionsSB": {
         "message": "Add shows that should use this alternative skip profile by clicking the button in the popup on an episode made by that show. The list of shows will appear below.",
@@ -218,7 +218,7 @@
         "message": "Something has gone wrong with the episodeID detection. Please try refreshing before submitting to ensure it gets submitted for the correct episode. If this is happening a lot, please send a report of this along with the other extensions or userscripts you have installed through GitHub or discord"
     },
     "skipProfile_forJustThisVideo": {
-        "message": "For just this episode",
+        "message": "För just denna episod",
         "description": "Option in skip profiles to set this skip profile as the active one for just this episode"
     },
     "skipProfile_forThisChannel": {
