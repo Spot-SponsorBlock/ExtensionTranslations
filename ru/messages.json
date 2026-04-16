@@ -17,6 +17,10 @@
         "message": "Медиафайл отсутствует",
         "description": "Displayed when the media player is completely empty / when no videoID could be found."
     },
+    "dynamicEpisode": {
+        "message": "This episode could be dynamic and is not supported by Spot SponsorBlock. No segments can be created.",
+        "description": "Displayed when the episode could be dynamic which happens when Spotify has no fallback for the episode."
+    },
     "wrongContentType": {
         "message": "Spot SponsorBlock поддерживает только подкасты"
     },
