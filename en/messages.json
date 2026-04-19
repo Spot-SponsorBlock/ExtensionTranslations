@@ -53,13 +53,9 @@
     "showTimeWithSkipsDescription": {
         "message": "This time appears in brackets next to the current time that is next to the Seek Bar. This shows the total episode duration minus any segments. This includes segments marked as only \"Show In Seek Bar\"."
     },
-    "the": {
-        "message": "The",
+    "spotSponsorBlockTeam": {
+        "message": "The Spot SponsorBlock Team",
         "description": "Used for displaying 'Created By The Spot SponsorBlock Team' in options and help page"
-    },
-    "team": {
-        "message": "Team",
-        "description": "Used for displaying 'Created By The Spot SponsorBlock Team' in options and help page"																											
     },
     "optionsInfo": {
         "message": "Disable auto skip, hide buttons and more."
