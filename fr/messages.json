@@ -18,7 +18,7 @@
         "description": "Displayed when the media player is completely empty / when no videoID could be found."
     },
     "dynamicEpisode": {
-        "message": "Cet épisode pourrait être dynamique and n'est pas pris en charge par Spot SponsorBlock. Aucun segment ne peut être créé.",
+        "message": "Cet épisode pourrait être dynamique et n'est pas pris en charge par Spot SponsorBlock. Aucun segment ne peut être créé.",
         "description": "Displayed when the episode could be dynamic which happens when Spotify has no fallback for the episode."
     },
     "wrongContentType": {
@@ -53,12 +53,8 @@
     "showTimeWithSkipsDescription": {
         "message": "Cette durée apparaît entre parenthèses à côté de la durée actuelle qui se trouve à côté de la barre de progression de l'épisode. Ceci montre la durée totale de l'épisode moins tous les segments. Cela inclut les segments marqués comme \"Afficher dans la barre de progrès\"."
     },
-    "the": {
-        "message": "Le",
-        "description": "Used for displaying 'Created By The Spot SponsorBlock Team' in options and help page"
-    },
-    "team": {
-        "message": "L'équipe",
+    "spotSponsorBlockTeam": {
+        "message": "The Spot SponsorBlock Team",
         "description": "Used for displaying 'Created By The Spot SponsorBlock Team' in options and help page"
     },
     "optionsInfo": {
