@@ -54,7 +54,7 @@
         "message": "Длительность видео без сегментов отображается в скобках рядом с текущим временем прослушивания. Включает в себя также сегменты, для которых выбрано «Отображать в полосе прокрутки»."
     },
     "spotSponsorBlockTeam": {
-        "message": "The Spot SponsorBlock Team",
+        "message": "командой Spot SponsorBlock",
         "description": "Used for displaying 'Created By The Spot SponsorBlock Team' in options and help page"
     },
     "optionsInfo": {

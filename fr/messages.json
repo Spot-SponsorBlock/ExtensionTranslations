@@ -54,7 +54,7 @@
         "message": "Cette durée apparaît entre parenthèses à côté de la durée actuelle qui se trouve à côté de la barre de progression de l'épisode. Ceci montre la durée totale de l'épisode moins tous les segments. Cela inclut les segments marqués comme \"Afficher dans la barre de progrès\"."
     },
     "spotSponsorBlockTeam": {
-        "message": "The Spot SponsorBlock Team",
+        "message": "L'équipe Spot SponsorBlock",
         "description": "Used for displaying 'Created By The Spot SponsorBlock Team' in options and help page"
     },
     "optionsInfo": {
